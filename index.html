@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- TODO: replace business name, description and OG image -->
+  <title>Your Studio Name | E-Learning Production</title>
+  <meta name="description" content="We produce engaging e-learning courses, training videos and interactive modules that people actually finish.">
+  <meta property="og:title" content="Your Studio Name | E-Learning Production">
+  <meta property="og:description" content="Learning experiences people actually finish.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/og-image.jpg">
+  <meta name="theme-color" content="#0b0b0f">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Calendly popup widget -->
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav" id="top">
+    <div class="container nav__inner">
+      <a class="brand" href="#top" aria-label="Your Studio Name, home">
+        <span class="brand__mark" aria-hidden="true">▶</span> Your Studio Name
+      </a>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="menu" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="menu" class="nav__menu" aria-label="Main">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#trailer">Trailer</a>
+        <a href="#success">Success</a>
+        <a class="btn btn--small" href="#contact" data-calendly>Book a call</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <p class="eyebrow reveal">E-learning production studio</p>
+        <h1 class="reveal">Learning experiences <span class="accent">people actually finish.</span></h1>
+        <p class="lead reveal">We turn complex knowledge into cinematic, interactive courses that engage learners and move business results.</p>
+        <div class="hero__cta reveal">
+          <a class="btn" href="#trailer">▶ Watch the trailer</a>
+          <a class="btn btn--ghost" href="#contact" data-calendly>Book a call</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container about">
+        <div class="about__photo reveal">
+          <!-- TODO: replace with your photo (assets/portrait.jpg) -->
+          <img src="assets/portrait.jpg" alt="Portrait of the founder" width="480" height="560" loading="lazy" onerror="this.style.display='none'">
+          <span class="about__photo-fallback" aria-hidden="true">Your photo</span>
+        </div>
+        <div class="about__text reveal">
+          <p class="eyebrow">Who I am</p>
+          <h2>Hi, I'm [Your Name], founder of Your Studio Name.</h2>
+          <!-- TODO: replace with your story -->
+          <p>I started this studio after years in instructional design and video production, frustrated by training that people clicked through and forgot. Today my team and I craft courses that teach, hold attention and prove their value.</p>
+          <p>From a single compliance module to a full academy, we handle strategy, scripting, filming, animation and delivery under one roof.</p>
+          <ul class="stats">
+            <li><strong>10+</strong><span>years experience</span></li>
+            <li><strong>150+</strong><span>courses produced</span></li>
+            <li><strong>500k</strong><span>learners reached</span></li>
+            <li><strong>60+</strong><span>happy clients</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section section--alt" id="services">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">What I do</p>
+          <h2>End-to-end e-learning production</h2>
+        </div>
+        <div class="cards">
+          <article class="card reveal">
+            <span class="card__icon" aria-hidden="true">🎓</span>
+            <h3>Custom course production</h3>
+            <p>Needs analysis, storyboards, scripts and full course build, aligned to your learning goals.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card__icon" aria-hidden="true">🎬</span>
+            <h3>Training video &amp; motion</h3>
+            <p>Studio-quality filming, animation and explainer videos that make ideas stick.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card__icon" aria-hidden="true">🧩</span>
+            <h3>Interactive &amp; SCORM modules</h3>
+            <p>Scenarios, quizzes and simulations packaged for any LMS, with tracking built in.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card__icon" aria-hidden="true">🌍</span>
+            <h3>Localization &amp; updates</h3>
+            <p>Subtitles, voice-over and translations, plus ongoing refreshes to keep content current.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRAILER -->
+    <section class="section" id="trailer">
+      <div class="container container--narrow">
+        <div class="section__head reveal">
+          <p class="eyebrow">Showreel</p>
+          <h2>See our work in 90 seconds</h2>
+        </div>
+        <!-- TODO: replace data-yt with your YouTube video ID -->
+        <div class="video video--large reveal" data-yt="YOUTUBE_ID_TRAILER" data-title="Studio trailer"></div>
+      </div>
+    </section>
+
+    <!-- SUCCESS -->
+    <section class="section section--alt" id="success">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Customer success</p>
+          <h2>Results our clients talk about</h2>
+        </div>
+        <div class="testimonials">
+          <!-- TODO: replace IDs, names and results for each client -->
+          <figure class="testimonial reveal">
+            <div class="video" data-yt="YOUTUBE_ID_CLIENT_1" data-title="Client 1 testimonial"></div>
+            <figcaption>
+              <span class="metric">92% completion rate</span>
+              <blockquote>“Our onboarding went from a chore to something new hires rave about.”</blockquote>
+              <cite>Client Name, Role · Company</cite>
+            </figcaption>
+          </figure>
+          <figure class="testimonial reveal">
+            <div class="video" data-yt="YOUTUBE_ID_CLIENT_2" data-title="Client 2 testimonial"></div>
+            <figcaption>
+              <span class="metric">40% faster ramp-up</span>
+              <blockquote>“They understood our subject matter and made it genuinely engaging.”</blockquote>
+              <cite>Client Name, Role · Company</cite>
+            </figcaption>
+          </figure>
+          <figure class="testimonial reveal">
+            <div class="video" data-yt="YOUTUBE_ID_CLIENT_3" data-title="Client 3 testimonial"></div>
+            <figcaption>
+              <span class="metric">12k learners in 3 months</span>
+              <blockquote>“On time, on budget, and the feedback from learners has been fantastic.”</blockquote>
+              <cite>Client Name, Role · Company</cite>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="container container--narrow contact__inner reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Let's build your next course</h2>
+        <p class="lead">Book a free 30-minute discovery call and we'll map out the right approach for your team.</p>
+        <!-- TODO: set your Calendly URL in script.js (CALENDLY_URL) -->
+        <a class="btn btn--large" href="#contact" data-calendly>Book a discovery call</a>
+        <ul class="contact__links">
+          <li><a href="mailto:hello@yourstudio.com">hello@yourstudio.com</a></li>
+          <li><a href="tel:+10000000000">+1 (000) 000-0000</a></li>
+          <li><a href="https://www.linkedin.com/" rel="noopener" target="_blank">LinkedIn</a></li>
+          <li><a href="https://www.youtube.com/" rel="noopener" target="_blank">YouTube</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© <span id="year"></span> Your Studio Name. All rights reserved.</span>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+  <script src="script.js"></script>
+</body>
+</html>
