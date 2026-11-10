@@ -7,7 +7,8 @@ Static page: `index.html`, `styles.css`, `script.js`. No build step; open `index
 - **Photo:** save as `assets/portrait.jpg`. **Share image:** `assets/og-image.jpg`.
 - **YouTube videos:** change each `data-yt="..."` to the video ID (the part after `v=` in the URL). One trailer plus three client videos.
 - **Calendly:** set `CALENDLY_URL` at the top of `script.js`.
-- **Accent colour:** change `--accent` in `styles.css` (also the `rgba(255, 90, 54, ...)` glows).
+- **Colours and fonts:** edit the tokens at the top of `styles.css` (`--cream`, `--ink`, `--sage`, `--yellow`, `--accent`, `--font-display`, `--font-body`). Fonts are loaded from Google Fonts in `index.html`.
+- **Client names in the trust strip:** `trust__logos` list in `index.html`.
 - **Email, phone, social links:** the Contact section in `index.html`.
 
 ## Host it

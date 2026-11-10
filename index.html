@@ -7,14 +7,14 @@
   <title>Your Studio Name | E-Learning Production</title>
   <meta name="description" content="We produce engaging e-learning courses, training videos and interactive modules that people actually finish.">
   <meta property="og:title" content="Your Studio Name | E-Learning Production">
-  <meta property="og:description" content="Learning experiences people actually finish.">
+  <meta property="og:description" content="Courses people actually finish.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="assets/og-image.jpg">
-  <meta name="theme-color" content="#0b0b0f">
+  <meta name="theme-color" content="#f9f9f6">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <!-- Calendly popup widget -->
   <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
@@ -43,14 +43,29 @@
   <main id="main">
     <!-- HERO -->
     <section class="hero">
-      <div class="container hero__inner">
+      <div class="container">
         <p class="eyebrow reveal">E-learning production studio</p>
-        <h1 class="reveal">Learning experiences <span class="accent">people actually finish.</span></h1>
-        <p class="lead reveal">We turn complex knowledge into cinematic, interactive courses that engage learners and move business results.</p>
+        <h1 class="reveal">Courses people
+          <span class="underline">actually finish.
+            <svg viewBox="0 0 300 20" preserveAspectRatio="none" aria-hidden="true"><path pathLength="1" d="M3 13 C 50 4, 95 17, 150 9 S 255 4, 297 11"/></svg>
+          </span>
+        </h1>
+        <p class="lead reveal">We turn complex knowledge into beautiful, interactive training that your team enjoys and remembers.</p>
         <div class="hero__cta reveal">
           <a class="btn" href="#trailer">▶ Watch the trailer</a>
           <a class="btn btn--ghost" href="#contact" data-calendly>Book a call</a>
         </div>
+      </div>
+    </section>
+
+    <!-- TRUST STRIP -->
+    <section class="trust" aria-label="Clients">
+      <div class="container trust__inner">
+        <span class="trust__label">Trusted by teams at</span>
+        <!-- TODO: replace with client names or logos -->
+        <ul class="trust__logos">
+          <li>Client One</li><li>Client Two</li><li>Client Three</li><li>Client Four</li><li>Client Five</li>
+        </ul>
       </div>
     </section>
 
@@ -66,7 +81,7 @@
           <p class="eyebrow">Who I am</p>
           <h2>Hi, I'm [Your Name], founder of Your Studio Name.</h2>
           <!-- TODO: replace with your story -->
-          <p>I started this studio after years in instructional design and video production, frustrated by training that people clicked through and forgot. Today my team and I craft courses that teach, hold attention and prove their value.</p>
+          <p>I started this studio after years in instructional design and video production, tired of training that people clicked through and forgot. Today my team and I craft courses that teach, hold attention and prove their value.</p>
           <p>From a single compliance module to a full academy, we handle strategy, scripting, filming, animation and delivery under one roof.</p>
           <ul class="stats">
             <li><strong>10+</strong><span>years experience</span></li>
@@ -79,30 +94,30 @@
     </section>
 
     <!-- SERVICES -->
-    <section class="section section--alt" id="services">
+    <section class="section section--sage" id="services">
       <div class="container">
         <div class="section__head reveal">
           <p class="eyebrow">What I do</p>
-          <h2>End-to-end e-learning production</h2>
+          <h2>Everything from first idea to final lesson</h2>
         </div>
         <div class="cards">
           <article class="card reveal">
-            <span class="card__icon" aria-hidden="true">🎓</span>
+            <span class="card__num" aria-hidden="true">01</span>
             <h3>Custom course production</h3>
             <p>Needs analysis, storyboards, scripts and full course build, aligned to your learning goals.</p>
           </article>
           <article class="card reveal">
-            <span class="card__icon" aria-hidden="true">🎬</span>
+            <span class="card__num" aria-hidden="true">02</span>
             <h3>Training video &amp; motion</h3>
             <p>Studio-quality filming, animation and explainer videos that make ideas stick.</p>
           </article>
           <article class="card reveal">
-            <span class="card__icon" aria-hidden="true">🧩</span>
+            <span class="card__num" aria-hidden="true">03</span>
             <h3>Interactive &amp; SCORM modules</h3>
             <p>Scenarios, quizzes and simulations packaged for any LMS, with tracking built in.</p>
           </article>
           <article class="card reveal">
-            <span class="card__icon" aria-hidden="true">🌍</span>
+            <span class="card__num" aria-hidden="true">04</span>
             <h3>Localization &amp; updates</h3>
             <p>Subtitles, voice-over and translations, plus ongoing refreshes to keep content current.</p>
           </article>
@@ -110,20 +125,44 @@
       </div>
     </section>
 
-    <!-- TRAILER -->
-    <section class="section" id="trailer">
-      <div class="container container--narrow">
+    <!-- HOW IT WORKS -->
+    <section class="section section--yellow" id="process">
+      <div class="container">
         <div class="section__head reveal">
+          <p class="eyebrow">How it works</p>
+          <h2>Three steps. No chaos.</h2>
+        </div>
+        <ol class="steps">
+          <li class="step reveal">
+            <h3>Brief &amp; strategy</h3>
+            <p>We learn your audience, goals and content, then agree on a clear plan and timeline.</p>
+          </li>
+          <li class="step reveal">
+            <h3>Script &amp; produce</h3>
+            <p>We write, film, animate and build, sharing drafts so you stay in control.</p>
+          </li>
+          <li class="step reveal">
+            <h3>Launch &amp; measure</h3>
+            <p>We deliver to your LMS and review completion and results so the next course is even better.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- TRAILER -->
+    <section class="section section--dark" id="trailer">
+      <div class="container container--narrow">
+        <div class="section__head section__head--center reveal">
           <p class="eyebrow">Showreel</p>
           <h2>See our work in 90 seconds</h2>
         </div>
         <!-- TODO: replace data-yt with your YouTube video ID -->
-        <div class="video video--large reveal" data-yt="YOUTUBE_ID_TRAILER" data-title="Studio trailer"></div>
+        <div class="video reveal" data-yt="YOUTUBE_ID_TRAILER" data-title="Studio trailer"></div>
       </div>
     </section>
 
     <!-- SUCCESS -->
-    <section class="section section--alt" id="success">
+    <section class="section section--white" id="success">
       <div class="container">
         <div class="section__head reveal">
           <p class="eyebrow">Customer success</p>
@@ -160,10 +199,10 @@
     </section>
 
     <!-- CONTACT -->
-    <section class="section contact" id="contact">
-      <div class="container container--narrow contact__inner reveal">
+    <section class="section section--yellow contact" id="contact">
+      <div class="container container--narrow reveal">
         <p class="eyebrow">Contact</p>
-        <h2>Let's build your next course</h2>
+        <h2>Ready to build your next course?</h2>
         <p class="lead">Book a free 30-minute discovery call and we'll map out the right approach for your team.</p>
         <!-- TODO: set your Calendly URL in script.js (CALENDLY_URL) -->
         <a class="btn btn--large" href="#contact" data-calendly>Book a discovery call</a>
