@@ -11,6 +11,96 @@
         ],
         "createdAt": "2026-11-26T04:20:29.289Z",
         "reason": "model triage: static file scan cannot see CSS padding; every flagged section/list has padding-block 26-140px in styles.css, and the live-page scans at 1440 and 390 raised no cramped-padding"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "inter tight",
+        "files": [
+          "b/styles.css"
+        ],
+        "createdAt": "2026-11-26T13:35:56.392Z",
+        "reason": "user requested A/B variant B in its own Tailscale-style system; DESIGN.md documents variant A"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "inter",
+        "files": [
+          "b/styles.css"
+        ],
+        "createdAt": "2026-11-26T13:35:56.413Z",
+        "reason": "user requested A/B variant B in its own Tailscale-style system; DESIGN.md documents variant A"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "ibm plex mono",
+        "files": [
+          "b/styles.css"
+        ],
+        "createdAt": "2026-11-26T13:35:56.434Z",
+        "reason": "user requested A/B variant B in its own Tailscale-style system; DESIGN.md documents variant A"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "*",
+        "files": [
+          "b/styles.css"
+        ],
+        "createdAt": "2026-11-26T13:35:56.452Z",
+        "reason": "user asked for variant B with new colours; DESIGN.md documents variant A"
+      },
+      {
+        "rule": "design-system-radius",
+        "value": "*",
+        "files": [
+          "b/styles.css"
+        ],
+        "createdAt": "2026-11-26T13:35:56.468Z",
+        "reason": "variant B has its own radius scale; DESIGN.md documents variant A"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "*",
+        "files": [
+          "b/index.html"
+        ],
+        "createdAt": "2026-11-26T13:36:24.101Z",
+        "reason": "user requested A/B variant B in its own Tailscale-style system with new colours; DESIGN.md documents variant A"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "*",
+        "files": [
+          "b/index.html"
+        ],
+        "createdAt": "2026-11-26T13:36:24.120Z",
+        "reason": "user requested A/B variant B in its own Tailscale-style system with new colours; DESIGN.md documents variant A"
+      },
+      {
+        "rule": "design-system-radius",
+        "value": "*",
+        "files": [
+          "b/index.html"
+        ],
+        "createdAt": "2026-11-26T13:36:24.136Z",
+        "reason": "user requested A/B variant B in its own Tailscale-style system with new colours; DESIGN.md documents variant A"
+      },
+      {
+        "rule": "overused-font",
+        "value": "inter",
+        "files": [
+          "b/styles.css"
+        ],
+        "createdAt": "2026-11-26T13:36:39.590Z",
+        "reason": "brief: user asked to recreate the page in tailscale.com's design, whose body face is Inter"
+      },
+      {
+        "rule": "overused-font",
+        "value": "inter",
+        "files": [
+          "b/index.html"
+        ],
+        "createdAt": "2026-11-26T13:36:39.608Z",
+        "reason": "brief: user asked to recreate the page in tailscale.com's design, whose body face is Inter"
       }
     ]
   }
