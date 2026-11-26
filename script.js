@@ -28,14 +28,6 @@ document.querySelectorAll(".video[data-yt]").forEach((el) => {
   const id = el.dataset.yt;
   const title = el.dataset.title || "Video";
 
-  if (el.dataset.frame) {
-    const corner = document.createElement("span");
-    corner.className = "video__corner";
-    corner.setAttribute("aria-hidden", "true");
-    corner.textContent = el.dataset.frame;
-    el.appendChild(corner);
-  }
-
   // Placeholder ID: show a film-leader countdown frame instead of a broken player
   if (!id || id.startsWith("YOUTUBE_ID")) {
     el.classList.add("is-pending");

@@ -10,9 +10,9 @@
   <meta property="og:type" content="website">
   <!-- TODO: add assets/og-image.jpg (1200x630) and use its full URL once the site is hosted -->
   <meta property="og:image" content="assets/og-image.jpg">
-  <meta name="theme-color" content="#f5f6f2">
+  <meta name="theme-color" content="#f6f5f3">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="preload" href="assets/fonts/bricolage-grotesque-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/geist-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="styles.css">
   <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
   <script>document.documentElement.classList.add("js");</script>
@@ -56,7 +56,8 @@
       </div>
 
       <!-- TODO: confirm the timings in each frame -->
-      <ol class="strip" id="how" aria-label="How it works in three steps">
+      <h2 class="sr-only" id="how-title">How it works</h2>
+      <ol class="strip" id="how" aria-labelledby="how-title">
         <li class="frame frame--teal">
           <div class="frame__screen">
             <span class="frame__num" aria-hidden="true">1</span>
@@ -71,11 +72,11 @@
               <path d="M66 24h22M66 31h14"/>
             </svg>
           </div>
-          <h2 class="frame__title">Brief</h2>
+          <h3 class="frame__title">Brief</h3>
           <p class="frame__ask">You talk us through what you know. No slides or script needed.</p>
           <p class="frame__when">[Week 1]</p>
         </li>
-        <li class="frame frame--navy">
+        <li class="frame frame--ink">
           <div class="frame__screen">
             <span class="frame__num" aria-hidden="true">2</span>
             <!-- A directed take: camera on the left, the expert in shot -->
@@ -89,11 +90,11 @@
               <path d="M108 50l8 8 8-8"/>
             </svg>
           </div>
-          <h2 class="frame__title">Produce</h2>
+          <h3 class="frame__title">Produce</h3>
           <p class="frame__ask">We script, film and build every lesson. You review drafts.</p>
           <p class="frame__when">[Weeks 2 to 4]</p>
         </li>
-        <li class="frame frame--mustard">
+        <li class="frame frame--ochre">
           <div class="frame__screen">
             <span class="frame__num" aria-hidden="true">3</span>
             <!-- A learner reaches the end of the course -->
@@ -105,7 +106,7 @@
               <path d="M94 44l8 8 16-16"/>
             </svg>
           </div>
-          <h2 class="frame__title">Launch</h2>
+          <h3 class="frame__title">Launch</h3>
           <p class="frame__ask">Your course goes live and learners finish it.</p>
           <p class="frame__when">[Week 5]</p>
         </li>
@@ -117,7 +118,7 @@
       <div class="wrap wrap--mid">
         <h2>See our work</h2>
         <!-- TODO: replace data-yt with your trailer's YouTube video ID -->
-        <div class="video video--feature" data-yt="YOUTUBE_ID_TRAILER" data-frame="00" data-title="Behow trailer"></div>
+        <div class="video video--feature" data-yt="YOUTUBE_ID_TRAILER" data-title="Behow trailer"></div>
       </div>
     </section>
 
@@ -128,20 +129,56 @@
           <h2>What we make</h2>
           <p class="lead">From a single lesson to a full academy, all under one roof.</p>
         </div>
-        <ul class="reels">
-          <li class="reel">
+        <ul class="cards">
+          <li class="card">
+            <div class="card__screen">
+              <!-- A course: a run of lessons, the first one done -->
+              <svg viewBox="0 0 160 90" aria-hidden="true" class="card__art">
+                <rect x="40" y="16" width="80" height="16" rx="4"/>
+                <rect x="40" y="37" width="80" height="16" rx="4"/>
+                <rect x="40" y="58" width="80" height="16" rx="4"/>
+                <path d="M47 24l3 3 6-6M64 24h44M48 45h4M64 45h36M48 66h4M64 66h28"/>
+              </svg>
+            </div>
             <h3>Complete online courses</h3>
             <p>Planning, scripts and the full build, shaped around what your learners need to be able to do.</p>
           </li>
-          <li class="reel">
+          <li class="card">
+            <div class="card__screen">
+              <!-- Video: a clapperboard -->
+              <svg viewBox="0 0 160 90" aria-hidden="true" class="card__art">
+                <rect x="50" y="36" width="60" height="38" rx="4"/>
+                <path d="M50 36l-3-12 58-14 3 12"/>
+                <path d="M62 21l9 10M78 17l9 10M94 13l9 10M60 48h40M60 58h26"/>
+              </svg>
+            </div>
             <h3>Video and animation</h3>
             <p>Studio filming, animation and explainers that make ideas stick.</p>
           </li>
-          <li class="reel">
+          <li class="card">
+            <div class="card__screen">
+              <!-- Interactive: a quiz with one answer chosen -->
+              <svg viewBox="0 0 160 90" aria-hidden="true" class="card__art">
+                <rect x="38" y="14" width="84" height="58" rx="5"/>
+                <path d="M50 26h44"/>
+                <circle cx="54" cy="40" r="4"/><path d="M64 40h32"/>
+                <circle cx="54" cy="54" r="4"/><circle cx="54" cy="54" r="1.4" class="fill"/><path d="M64 54h24"/>
+                <path d="M104 50l0 22 6-6 5 9 4-2-5-9h8z"/>
+              </svg>
+            </div>
             <h3>Interactive lessons</h3>
             <p>Scenarios, quizzes and simulations that work on any course platform and track each learner's progress. (In the trade: SCORM modules for your LMS.)</p>
           </li>
-          <li class="reel">
+          <li class="card">
+            <div class="card__screen">
+              <!-- Translation: the same line in two languages -->
+              <svg viewBox="0 0 160 90" aria-hidden="true" class="card__art">
+                <path d="M36 18h44a5 5 0 0 1 5 5v18a5 5 0 0 1-5 5H56l-9 8v-8h-11a5 5 0 0 1-5-5V23a5 5 0 0 1 5-5z"/>
+                <path d="M124 38H80a5 5 0 0 0-5 5v18a5 5 0 0 0 5 5h24l9 8v-8h11a5 5 0 0 0 5-5V43a5 5 0 0 0-5-5z"/>
+                <text x="58" y="36" text-anchor="middle">EN</text>
+                <text x="102" y="56" text-anchor="middle">ES</text>
+              </svg>
+            </div>
             <h3>Translation and updates</h3>
             <p>Subtitles, voice-over and translations, plus refreshes to keep your course current.</p>
           </li>
@@ -162,7 +199,7 @@
         <!-- TODO: replace YouTube IDs, results, quotes and names with real ones -->
         <div class="screenings">
           <figure class="screening-card">
-            <div class="video" data-yt="YOUTUBE_ID_CLIENT_1" data-frame="01" data-title="Client 1 story"></div>
+            <div class="video" data-yt="YOUTUBE_ID_CLIENT_1" data-title="Client 1 story"></div>
             <figcaption>
               <span class="result">[Real result]</span>
               <blockquote>[A short quote from this client]</blockquote>
@@ -170,7 +207,7 @@
             </figcaption>
           </figure>
           <figure class="screening-card">
-            <div class="video" data-yt="YOUTUBE_ID_CLIENT_2" data-frame="02" data-title="Client 2 story"></div>
+            <div class="video" data-yt="YOUTUBE_ID_CLIENT_2" data-title="Client 2 story"></div>
             <figcaption>
               <span class="result">[Real result]</span>
               <blockquote>[A short quote from this client]</blockquote>
@@ -178,7 +215,7 @@
             </figcaption>
           </figure>
           <figure class="screening-card">
-            <div class="video" data-yt="YOUTUBE_ID_CLIENT_3" data-frame="03" data-title="Client 3 story"></div>
+            <div class="video" data-yt="YOUTUBE_ID_CLIENT_3" data-title="Client 3 story"></div>
             <figcaption>
               <span class="result">[Real result]</span>
               <blockquote>[A short quote from this client]</blockquote>
@@ -190,7 +227,7 @@
     </section>
 
     <!-- QUESTIONS -->
-    <section class="section section--rule" id="questions">
+    <section class="section" id="questions">
       <div class="wrap faq">
         <h2>First course? Good questions to ask</h2>
         <div class="faq__list">
@@ -224,12 +261,12 @@
       <div class="wrap about">
         <div class="about__photo">
           <!-- TODO: add your photo as assets/portrait.jpg -->
-          <img src="assets/portrait.jpg" alt="Portrait of the founder of Behow" width="480" height="560" loading="lazy" onerror="this.remove()">
+          <img src="assets/portrait.jpg" alt="Portrait of the founder of Behow" width="550" height="400" loading="lazy" onerror="this.remove()">
           <span class="about__fallback" aria-hidden="true">Founder photo</span>
         </div>
         <div class="about__text">
           <!-- TODO: replace with your name and story -->
-          <h2>Hi, I'm [Your Name], founder of <span class="sc">behow</span>.</h2>
+          <h2>Hi, I'm [Your Name], founder of Behow.</h2>
           <p>[Your story: how you started Behow, your background, and why you care about courses people finish.]</p>
           <p>We handle planning, scripts, filming, animation and delivery under one roof, so you only deal with one team.</p>
         </div>
@@ -243,7 +280,7 @@
           <p class="end-card__title" aria-hidden="true">The End</p>
           <h2>Your course starts with one call.</h2>
           <p class="end-card__sub">We'll talk about what you know and map out the simplest way to turn it into a course.</p>
-          <a class="btn btn--large btn--navy" href="#book" data-calendly>Book a call</a>
+          <a class="btn btn--large" href="#book" data-calendly>Book a call</a>
         </div>
         <!-- TODO: replace contact details -->
         <ul class="the-end__links">

@@ -1,173 +1,204 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-26T04:29:16+00:00",
+  "generatedAt": "2026-11-26T04:45:17Z",
   "title": "Design System: Behow",
   "extensions": {
     "colorMeta": {
-      "mustard": {
+      "ink": {
         "role": "primary",
-        "displayName": "Projector Mustard",
-        "canonical": "oklch(79.3% 0.157 85.2)",
+        "displayName": "Projection Ink",
+        "canonical": "oklch(22.2% 0.023 265.6)",
         "tonalRamp": [
-          "#160700",
-          "#371e00",
-          "#5a3800",
-          "#815400",
-          "#a77700",
-          "#c69f46",
-          "#e4c788",
-          "#ffecc1"
+          "#090b0f",
+          "#1f2228",
+          "#363b43",
+          "#505561",
+          "#747a88",
+          "#9fa5b0",
+          "#caced6",
+          "#ebeef5"
         ]
       },
-      "mustard-bright": {
+      "ink-hover": {
         "role": "primary",
-        "displayName": "Lit Mustard",
-        "canonical": "oklch(83.0% 0.156 87.7)",
+        "displayName": "Lifted Ink",
+        "canonical": "oklch(31.4% 0.032 267.2)",
         "tonalRamp": [
-          "#150800",
-          "#351f00",
-          "#583900",
-          "#7e5600",
-          "#a47900",
-          "#c3a046",
-          "#e2c889",
-          "#ffedc1"
+          "#090b11",
+          "#1e212b",
+          "#353a47",
+          "#4e5565",
+          "#727a8d",
+          "#9ea5b4",
+          "#c8ceda",
+          "#eaeef8"
         ]
       },
-      "mustard-deep": {
-        "role": "primary",
-        "displayName": "Burnt Mustard",
-        "canonical": "oklch(70.1% 0.142 83.2)",
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Soft Ink",
+        "canonical": "oklch(46.7% 0.024 264.3)",
         "tonalRamp": [
-          "#160800",
-          "#361f00",
-          "#593800",
-          "#7f5400",
-          "#a67700",
-          "#c49f52",
-          "#e3c790",
-          "#ffecc6"
+          "#090b10",
+          "#1e2228",
+          "#363b44",
+          "#4f5561",
+          "#737a89",
+          "#9fa5b1",
+          "#c9ced7",
+          "#ebeff6"
+        ]
+      },
+      "ink-faint": {
+        "role": "neutral",
+        "displayName": "Faint Ink",
+        "canonical": "oklch(53.1% 0.023 267.1)",
+        "tonalRamp": [
+          "#090b0f",
+          "#1f2228",
+          "#373a43",
+          "#505561",
+          "#747a88",
+          "#a0a5b0",
+          "#caced7",
+          "#ebeef5"
         ]
       },
       "teal": {
         "role": "secondary",
-        "displayName": "Classroom Teal",
-        "canonical": "oklch(52.8% 0.082 190.6)",
+        "displayName": "Screening Teal",
+        "canonical": "oklch(43.1% 0.062 189.0)",
         "tonalRamp": [
-          "#000f0e",
-          "#002b29",
-          "#0b4a47",
-          "#1d6b67",
-          "#438f8b",
-          "#77b1ad",
-          "#aad4d1",
-          "#d8f6f3"
+          "#000f0d",
+          "#092725",
+          "#1b423f",
+          "#2f5f5b",
+          "#4e8681",
+          "#83aeaa",
+          "#b5d6d2",
+          "#dcf4f2"
         ]
       },
-      "navy": {
-        "role": "neutral",
-        "displayName": "Ink Navy",
-        "canonical": "oklch(28.9% 0.063 263.0)",
+      "ochre": {
+        "role": "tertiary",
+        "displayName": "Muted Ochre",
+        "canonical": "oklch(70.2% 0.121 82.3)",
         "tonalRamp": [
-          "#060b15",
-          "#1b2435",
-          "#334058",
-          "#4d5e7e",
-          "#6e80a3",
-          "#95a5c2",
-          "#bfcbe2",
-          "#e6efff"
+          "#150800",
+          "#311d00",
+          "#503500",
+          "#714e00",
+          "#9c720e",
+          "#c19f60",
+          "#e4ca9b",
+          "#ffecc9"
         ]
       },
-      "navy-raised": {
-        "role": "neutral",
-        "displayName": "Raised Navy",
-        "canonical": "oklch(34.1% 0.073 263.4)",
+      "ochre-tint": {
+        "role": "tertiary",
+        "displayName": "Ochre Tint",
+        "canonical": "oklch(93.9% 0.026 84.6)",
         "tonalRamp": [
-          "#060b17",
-          "#1a2438",
-          "#313f5c",
-          "#4a5d83",
-          "#6b80a9",
-          "#93a5c7",
-          "#bdcbe6",
-          "#e5efff"
+          "#0d0b06",
+          "#25211a",
+          "#3f3a30",
+          "#5b5548",
+          "#81796a",
+          "#aaa497",
+          "#d2cdc3",
+          "#f2eee7"
         ]
       },
-      "navy-soft": {
-        "role": "neutral",
-        "displayName": "Soft Navy",
-        "canonical": "oklch(45.3% 0.045 265.4)",
+      "ochre-ink": {
+        "role": "tertiary",
+        "displayName": "Ochre Ink",
+        "canonical": "oklch(44.6% 0.082 81.7)",
         "tonalRamp": [
-          "#080b13",
-          "#1e2430",
-          "#374051",
-          "#535e75",
-          "#74809a",
-          "#9ba5ba",
-          "#c3cbdb",
-          "#e9effb"
+          "#120900",
+          "#2d1f04",
+          "#4a3712",
+          "#695123",
+          "#927641",
+          "#b8a178",
+          "#ddcbac",
+          "#faedd5"
         ]
       },
-      "screen": {
+      "ground": {
         "role": "neutral",
-        "displayName": "Projector Screen",
-        "canonical": "oklch(97.1% 0.005 117.9)",
-        "tonalRamp": [
-          "#0b0b0a",
-          "#242423",
-          "#3f403e",
-          "#5d5e5b",
-          "#80817d",
-          "#a4a5a2",
-          "#cacbc9",
-          "#eeefed"
-        ]
-      },
-      "paper": {
-        "role": "neutral",
-        "displayName": "Paper White",
-        "canonical": "oklch(100.0% 0.000 89.9)",
+        "displayName": "Warm Ground",
+        "canonical": "oklch(97.0% 0.003 84.6)",
         "tonalRamp": [
           "#0b0b0b",
-          "#242424",
-          "#404040",
-          "#5d5d5d",
-          "#808080",
+          "#222221",
+          "#3b3a39",
+          "#565554",
+          "#7b7a78",
+          "#a5a4a3",
+          "#cececc",
+          "#efeeed"
+        ]
+      },
+      "ground-tint": {
+        "role": "neutral",
+        "displayName": "Tint Ground",
+        "canonical": "oklch(94.9% 0.005 95.1)",
+        "tonalRamp": [
+          "#0b0b0a",
+          "#222220",
+          "#3b3a38",
+          "#565552",
+          "#7b7a77",
+          "#a5a4a2",
+          "#cececb",
+          "#efeeed"
+        ]
+      },
+      "panel": {
+        "role": "neutral",
+        "displayName": "Panel White",
+        "canonical": "oklch(100% 0 0)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#222222",
+          "#3a3a3a",
+          "#555555",
+          "#7a7a7a",
           "#a4a4a4",
-          "#cacaca",
+          "#cecece",
           "#eeeeee"
         ]
       },
-      "tint": {
+      "leader": {
         "role": "neutral",
-        "displayName": "Pale Teal Field",
-        "canonical": "oklch(93.7% 0.012 170.3)",
+        "displayName": "Leader Grey",
+        "canonical": "oklch(93.7% 0.006 84.6)",
         "tonalRamp": [
-          "#090c0b",
-          "#212523",
-          "#3b413f",
-          "#58605d",
-          "#7a827f",
-          "#9fa6a4",
-          "#c7ccca",
-          "#ecefee"
+          "#0c0b0a",
+          "#222120",
+          "#3b3a38",
+          "#565552",
+          "#7c7a77",
+          "#a6a4a1",
+          "#cfcdcb",
+          "#efeeed"
         ]
       },
       "line": {
         "role": "neutral",
         "displayName": "Hairline",
-        "canonical": "rgba(26, 42, 74, .16)"
+        "canonical": "rgba(22, 27, 38, .12)"
+      },
+      "line-strong": {
+        "role": "neutral",
+        "displayName": "Strong Hairline",
+        "canonical": "rgba(22, 27, 38, .22)"
       }
     },
     "typographyMeta": {
       "display": {
         "displayName": "Display",
-        "purpose": "Hero title card headline only."
-      },
-      "display-end": {
-        "displayName": "Display End",
-        "purpose": "\"The End\" on the closing card only."
+        "purpose": "Title-card headline only, centred, max 12em."
       },
       "headline": {
         "displayName": "Headline",
@@ -175,115 +206,93 @@
       },
       "title": {
         "displayName": "Title",
-        "purpose": "Item headings: frames, service rows, FAQ questions."
+        "purpose": "Frame titles and service rows."
       },
-      "quote": {
-        "displayName": "Quote",
-        "purpose": "Client quotes in the display face."
+      "title-sm": {
+        "displayName": "Title Small",
+        "purpose": "FAQ questions and client quotes."
       },
       "lead": {
         "displayName": "Lead",
-        "purpose": "Sublines under headings, soft navy."
+        "purpose": "Soft-ink subline under headings."
       },
       "body": {
         "displayName": "Body",
-        "purpose": "Reading text, 34 to 40em measure."
+        "purpose": "Running text."
       },
       "button": {
         "displayName": "Button",
-        "purpose": "Button labels."
+        "purpose": "All button labels."
       },
       "label": {
         "displayName": "Label",
-        "purpose": "True small-caps labels: timings, result chips, client names."
+        "purpose": "Mono uppercase measurements and labels attached to content: timings, client names, results, placeholder captions."
+      },
+      "frame-number": {
+        "displayName": "Frame Number",
+        "purpose": "Corner digit on each numbered frame, with a leading zero."
       },
       "wordmark": {
         "displayName": "Wordmark",
-        "purpose": "The lowercase behow wordmark rendered in small caps."
+        "purpose": "The small-caps behow wordmark."
+      },
+      "end-title": {
+        "displayName": "End Title",
+        "purpose": "The \"The End\" title on the closing card."
       }
     },
     "shadows": [
       {
-        "name": "screen",
-        "value": "0 18px 36px -18px rgba(26, 42, 74, .35)",
-        "purpose": "Hero frames and the about photo."
-      },
-      {
-        "name": "screen-mobile",
-        "value": "0 10px 20px -14px rgba(26, 42, 74, .45)",
-        "purpose": "Hero thumbnail frames below 720px."
+        "name": "screen-lift",
+        "value": "0 1px 2px rgba(22, 27, 38, .06), 0 12px 32px -16px rgba(22, 27, 38, .22)",
+        "purpose": "Lifts 16:9 screens: hero frames, client videos, the end card."
       },
       {
         "name": "feature-screen",
-        "value": "0 34px 60px -30px rgba(10, 30, 40, .7)",
-        "purpose": "Featured trailer on the teal field."
+        "value": "0 30px 60px -32px rgba(5, 20, 20, .8)",
+        "purpose": "The trailer on the teal band, with a 1px rgba(255,255,255,.22) border."
       },
       {
-        "name": "mustard-glow",
-        "value": "0 10px 20px -12px rgba(201, 149, 10, .9)",
-        "purpose": "Primary button at rest."
+        "name": "play-button",
+        "value": "0 10px 24px -10px rgba(0,0,0,.45)",
+        "purpose": "Round play control on a video."
       },
       {
-        "name": "mustard-glow-hover",
-        "value": "0 16px 26px -14px rgba(201, 149, 10, .95)",
-        "purpose": "Primary button on hover."
-      },
-      {
-        "name": "navy-glow",
-        "value": "0 12px 24px -14px rgba(26, 42, 74, .8)",
-        "purpose": "Navy button on the mustard field."
-      },
-      {
-        "name": "play",
-        "value": "0 12px 24px -10px rgba(0,0,0,.5)",
-        "purpose": "Play button over video thumbnails."
-      },
-      {
-        "name": "end-card",
-        "value": "0 30px 50px -30px rgba(90, 60, 0, .55), inset 0 0 0 10px #f5f6f2, inset 0 0 0 12px rgba(26, 42, 74, .25)",
-        "purpose": "Closing title card: warm drop plus double inset mat."
-      },
-      {
-        "name": "focus-ring",
-        "value": "outline: 3px solid #1a2a4a; outline-offset: 3px",
-        "purpose": "Global :focus-visible; paper-white on video play buttons."
-      },
-      {
-        "name": "nav-glass",
-        "value": "background: rgba(245, 246, 242, .82); backdrop-filter: saturate(1.4) blur(14px)",
-        "purpose": "Sticky nav and (at .96 opacity, no blur) the mobile dock."
+        "name": "title-card-inset",
+        "value": "inset 0 0 0 10px #ffffff, inset 0 0 0 11px rgba(22, 27, 38, .12)",
+        "purpose": "Inner rule that makes the end card read as a title card; combined with screen-lift."
       }
     ],
     "motion": [
       {
         "name": "ease-out",
         "value": "cubic-bezier(.16, 1, .3, 1)",
-        "purpose": "State transitions: button lift, play scale, chevron, dock."
+        "purpose": "Transforms: button press, play scale, chevron, dock, nav toggle."
       },
       {
-        "name": "filmstrip-advance",
-        "value": "advance .84s steps(3, jump-none) .15s both",
-        "purpose": "Hero strip pulls in one full frame per step on load (720px and up)."
+        "name": "strip-advance",
+        "value": "0.84s steps(3, jump-none) 0.15s",
+        "purpose": "Hero strip pulls in one full frame per step on load (desktop)."
       },
       {
         "name": "frame-in",
-        "value": "frame-in .36s steps(2, jump-none) both; stagger .12s",
-        "purpose": "Mobile hero frames step in from 40px."
+        "value": "0.36s steps(2, jump-none), stagger 0.12s",
+        "purpose": "Mobile hero rows step in from 40px."
       },
       {
-        "name": "button-lift",
-        "value": "transform .25s, translateY(-2px)",
-        "purpose": "Primary button hover."
+        "name": "state-colour",
+        "value": "0.2s",
+        "purpose": "Button and link colour, background and border transitions."
       },
       {
-        "name": "thumb-zoom",
-        "value": "transform .6s, scale(1.03)",
-        "purpose": "Video thumbnail on hover."
+        "name": "screen-hover",
+        "value": "0.6s ease-out, scale(1.02)",
+        "purpose": "Video thumbnail on hover; play button scales to 1.06 over 0.3s."
       },
       {
         "name": "dock-slide",
-        "value": "transform .35s, translateY(110%) to none",
-        "purpose": "Mobile booking dock reveal."
+        "value": "0.35s ease-out",
+        "purpose": "Mobile booking dock slides in and out."
       },
       {
         "name": "reduced-motion",
@@ -293,7 +302,11 @@
     ],
     "breakpoints": [
       {
-        "name": "stack",
+        "name": "mobile-max",
+        "value": "720px"
+      },
+      {
+        "name": "tablet",
         "value": "720px"
       },
       {
@@ -301,7 +314,7 @@
         "value": "860px"
       },
       {
-        "name": "two-column",
+        "name": "desktop",
         "value": "900px"
       }
     ]
@@ -311,132 +324,136 @@
       "name": "Primary Button",
       "kind": "button",
       "refersTo": "button-primary",
-      "description": "Mustard pill for every Book a call.",
+      "description": "Near-black ink action; every Book a call.",
       "html": "<a class=\"ds-btn\" href=\"#\">Book a call</a>",
-      "css": ".ds-btn { display: inline-flex; align-items: center; gap: .55em; justify-content: center; min-height: 52px; padding: 0 30px; border-radius: 999px; border: 2px solid var(--mustard, #e9b21c); background: var(--mustard, #e9b21c); color: var(--navy, #1a2a4a); text-decoration: none; cursor: pointer; font: 700 1.1rem/1 var(--font-body, 'Alegreya Sans', sans-serif); letter-spacing: .01em; box-shadow: 0 10px 20px -12px rgba(201, 149, 10, .9); transition: transform .25s cubic-bezier(.16, 1, .3, 1), background-color .2s, box-shadow .25s cubic-bezier(.16, 1, .3, 1); } .ds-btn:hover { background: #f2c033; transform: translateY(-2px); box-shadow: 0 16px 26px -14px rgba(201, 149, 10, .95); } .ds-btn:active { transform: translateY(0); } .ds-btn:focus-visible { outline: 3px solid var(--navy, #1a2a4a); outline-offset: 3px; }"
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: .55em; min-height: 46px; padding: 0 20px; border-radius: 8px; border: 1px solid #161b26; background: #161b26; color: #ffffff; text-decoration: none; font: 500 1rem/1 Geist, 'Helvetica Neue', Arial, sans-serif; letter-spacing: -.005em; transition: background-color .2s, border-color .2s, transform .25s cubic-bezier(.16,1,.3,1); } .ds-btn:hover { background: #2a3142; border-color: #2a3142; } .ds-btn:active { transform: translateY(1px); } .ds-btn:focus-visible { outline: 2px solid #161b26; outline-offset: 3px; }"
     },
     {
       "name": "Quiet Button",
       "kind": "button",
       "refersTo": "button-quiet",
-      "description": "Navy outline pill for the secondary action; fills navy on hover.",
-      "html": "<a class=\"ds-btn ds-btn--quiet\" href=\"#\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M8 5.5v13l10.5-6.5z\" fill=\"currentColor\"/></svg>Watch the trailer</a>",
-      "css": ".ds-btn { display: inline-flex; align-items: center; gap: .55em; justify-content: center; min-height: 52px; padding: 0 30px; border-radius: 999px; border: 2px solid var(--mustard, #e9b21c); background: var(--mustard, #e9b21c); color: var(--navy, #1a2a4a); text-decoration: none; cursor: pointer; font: 700 1.1rem/1 var(--font-body, 'Alegreya Sans', sans-serif); letter-spacing: .01em; box-shadow: 0 10px 20px -12px rgba(201, 149, 10, .9); transition: transform .25s cubic-bezier(.16, 1, .3, 1), background-color .2s, box-shadow .25s cubic-bezier(.16, 1, .3, 1); } .ds-btn:hover { background: #f2c033; transform: translateY(-2px); box-shadow: 0 16px 26px -14px rgba(201, 149, 10, .95); } .ds-btn:active { transform: translateY(0); } .ds-btn:focus-visible { outline: 3px solid var(--navy, #1a2a4a); outline-offset: 3px; } .ds-btn--quiet { background: transparent; border-color: var(--navy, #1a2a4a); color: var(--navy, #1a2a4a); box-shadow: none; } .ds-btn--quiet:hover { background: var(--navy, #1a2a4a); color: var(--screen, #f5f6f2); box-shadow: none; }"
-    },
-    {
-      "name": "Navy Button",
-      "kind": "button",
-      "refersTo": "button-navy",
-      "description": "Large navy pill, used only on the mustard field.",
-      "html": "<div style=\"background:#e9b21c;padding:24px\"><a class=\"ds-btn ds-btn--navy\" href=\"#\">Book a call</a></div>",
-      "css": ".ds-btn { display: inline-flex; align-items: center; gap: .55em; justify-content: center; min-height: 52px; padding: 0 30px; border-radius: 999px; border: 2px solid var(--mustard, #e9b21c); background: var(--mustard, #e9b21c); color: var(--navy, #1a2a4a); text-decoration: none; cursor: pointer; font: 700 1.1rem/1 var(--font-body, 'Alegreya Sans', sans-serif); letter-spacing: .01em; box-shadow: 0 10px 20px -12px rgba(201, 149, 10, .9); transition: transform .25s cubic-bezier(.16, 1, .3, 1), background-color .2s, box-shadow .25s cubic-bezier(.16, 1, .3, 1); } .ds-btn:hover { background: #f2c033; transform: translateY(-2px); box-shadow: 0 16px 26px -14px rgba(201, 149, 10, .95); } .ds-btn:active { transform: translateY(0); } .ds-btn:focus-visible { outline: 3px solid var(--navy, #1a2a4a); outline-offset: 3px; } .ds-btn--navy { background: var(--navy, #1a2a4a); border-color: var(--navy, #1a2a4a); color: var(--screen, #f5f6f2); min-height: 62px; padding: 0 44px; font-size: 1.25rem; box-shadow: 0 12px 24px -14px rgba(26, 42, 74, .8); } .ds-btn--navy:hover { background: #24375e; }"
-    },
-    {
-      "name": "Result Chip",
-      "kind": "chip",
-      "refersTo": "result-chip",
-      "description": "Mustard small-caps pill above each client quote.",
-      "html": "<span class=\"ds-result\">Result</span>",
-      "css": ".ds-result { display: inline-block; background: var(--mustard, #e9b21c); color: var(--navy, #1a2a4a); font: 700 .95rem/1 var(--font-sc, 'Alegreya Sans SC', sans-serif); letter-spacing: .04em; padding: 8px 14px; border-radius: 999px; }"
+      "description": "Outlined secondary action with an inline play icon.",
+      "html": "<a class=\"ds-btn-quiet\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"M8 5.5v13l10.5-6.5z\" fill=\"currentColor\"/></svg>Watch the trailer</a>",
+      "css": ".ds-btn-quiet { display: inline-flex; align-items: center; justify-content: center; gap: .55em; min-height: 46px; padding: 0 20px; border-radius: 8px; border: 1px solid rgba(22,27,38,.22); background: transparent; color: #161b26; text-decoration: none; font: 500 1rem/1 Geist, 'Helvetica Neue', Arial, sans-serif; letter-spacing: -.005em; transition: background-color .2s, border-color .2s; } .ds-btn-quiet:hover { background: #ffffff; border-color: #161b26; } .ds-btn-quiet:focus-visible { outline: 2px solid #161b26; outline-offset: 3px; }"
     },
     {
       "name": "Navigation",
       "kind": "nav",
       "refersTo": "nav",
-      "description": "Sticky translucent bar: small-caps wordmark, soft-navy links, small mustard button.",
-      "html": "<nav class=\"ds-nav\"><a class=\"ds-wordmark\" href=\"#\">behow</a><div class=\"ds-nav__menu\"><a href=\"#\">How it works</a><a href=\"#\">Work</a><a href=\"#\">Questions</a><a class=\"ds-nav__btn\" href=\"#\">Book a call</a></div></nav>",
-      "css": ".ds-nav { display: flex; align-items: center; justify-content: space-between; height: 76px; padding: 0 24px; background: rgba(245, 246, 242, .82); backdrop-filter: saturate(1.4) blur(14px); border-bottom: 1px solid rgba(26, 42, 74, .16); } .ds-wordmark { font: 800 2rem/1 var(--font-sc, 'Alegreya Sans SC', sans-serif); letter-spacing: .015em; color: var(--navy, #1a2a4a); text-decoration: none; padding-bottom: 4px; } .ds-nav__menu { display: flex; align-items: center; gap: 32px; } .ds-nav__menu a:not(.ds-nav__btn) { font-family: var(--font-body, 'Alegreya Sans', 'Gill Sans', sans-serif); font-weight: 500; color: var(--navy-soft, #4a5670); text-decoration: none; transition: color .2s; } .ds-nav__menu a:not(.ds-nav__btn):hover { color: var(--navy, #1a2a4a); text-decoration: underline; text-underline-offset: .2em; } .ds-nav__btn { display: inline-flex; align-items: center; min-height: 44px; padding: 0 22px; border-radius: 999px; background: var(--mustard, #e9b21c); color: var(--navy, #1a2a4a); font: 700 1rem/1 var(--font-body, 'Alegreya Sans', sans-serif); text-decoration: none; } .ds-nav__btn:hover { background: #f2c033; } .ds-nav a:focus-visible { outline: 3px solid var(--navy, #1a2a4a); outline-offset: 3px; border-radius: 6px; }"
+      "description": "Sticky translucent bar: small-caps wordmark, soft links, small primary.",
+      "html": "<header class=\"ds-nav\"><a class=\"ds-wordmark\" href=\"#\">behow</a><nav class=\"ds-nav-menu\"><a href=\"#\">How it works</a><a href=\"#\">Our work</a><a href=\"#\">Questions</a><a class=\"ds-nav-btn\" href=\"#\">Book a call</a></nav></header>",
+      "css": ".ds-nav { display: flex; align-items: center; justify-content: space-between; height: 68px; padding: 0 24px; background: rgba(246,245,243,.8); backdrop-filter: saturate(1.2) blur(14px); border-bottom: 1px solid rgba(22,27,38,.12); } .ds-wordmark { font: 600 1.6rem/1 'Spectral SC', Georgia, serif; letter-spacing: .03em; color: #161b26; text-decoration: none; } .ds-nav-menu { display: flex; align-items: center; gap: 30px; } .ds-nav-menu a:not(.ds-nav-btn) { font: 400 .9375rem Geist, Arial, sans-serif; color: #535a68; text-decoration: none; transition: color .2s; } .ds-nav-menu a:not(.ds-nav-btn):hover { color: #161b26; } .ds-nav-btn { display: inline-flex; align-items: center; min-height: 40px; padding: 0 16px; border-radius: 8px; background: #161b26; color: #fff; text-decoration: none; font: 500 .9375rem/1 Geist, Arial, sans-serif; transition: background-color .2s; } .ds-nav-btn:hover { background: #2a3142; } .ds-nav a:focus-visible { outline: 2px solid #161b26; outline-offset: 3px; border-radius: 4px; }"
     },
     {
-      "name": "Hero Frame",
+      "name": "Result Chip",
+      "kind": "chip",
+      "refersTo": "result-chip",
+      "description": "Mono uppercase result label above a client quote.",
+      "html": "<span class=\"ds-result\">[Real result]</span>",
+      "css": ".ds-result { display: inline-block; background: #f3ead8; color: #6b4f14; font: 500 .75rem/1 'Geist Mono', ui-monospace, Menlo, monospace; letter-spacing: .05em; text-transform: uppercase; padding: 7px 10px; border-radius: 6px; }"
+    },
+    {
+      "name": "Ruled Panel",
       "kind": "card",
-      "refersTo": "frame-screen",
-      "description": "Numbered 16:9 colour-field screen with a one-stroke drawing, title, ask and small-caps timing.",
-      "html": "<div class=\"ds-frame\"><div class=\"ds-frame__screen\"><span class=\"ds-frame__num\">1</span><svg viewBox=\"0 0 160 90\" class=\"ds-frame__art\" aria-hidden=\"true\"><circle cx=\"60\" cy=\"40\" r=\"14\"/><path d=\"M38 76c4-14 14-20 22-20s18 6 22 20M96 30h34M96 44h26M96 58h30\"/></svg></div><h3 class=\"ds-frame__title\">Brief</h3><p class=\"ds-frame__ask\">You talk us through what you know.</p><p class=\"ds-frame__when\">Week 1</p></div>",
-      "css": ".ds-frame { max-width: 340px; color: var(--navy, #1a2a4a); } .ds-frame__screen { position: relative; aspect-ratio: 16 / 9; border-radius: 16px; overflow: hidden; background: var(--teal, #1f7a76); box-shadow: 0 18px 36px -18px rgba(26, 42, 74, .35); display: grid; place-items: center; } .ds-frame__art { width: 72%; fill: none; stroke: #fff; stroke-width: 3.5; stroke-linecap: round; stroke-linejoin: round; } .ds-frame__num { position: absolute; left: 14px; top: 12px; font: 800 1.5rem/1 var(--font-display, 'Bricolage Grotesque', sans-serif); color: #fff; } .ds-frame__title { font: 800 1.75rem/1 var(--font-display, 'Bricolage Grotesque', sans-serif); font-variation-settings: 'wdth' 85; letter-spacing: -.015em; margin: 1.4rem 0 0; } .ds-frame__ask { font-family: var(--font-body, 'Alegreya Sans', 'Gill Sans', sans-serif); color: var(--navy-soft, #4a5670); margin: .3rem 0 0; font-size: 1.05rem; line-height: 1.45; } .ds-frame__when { margin: .45rem 0 0; font: 700 .95rem/1.2 var(--font-sc, 'Alegreya Sans SC', sans-serif); letter-spacing: .05em; }"
+      "refersTo": "panel-list",
+      "description": "White hairline panel with dashed row dividers (services, FAQ).",
+      "html": "<div class=\"ds-faq\"><details open><summary>Do I need slides or a script?</summary><p>No. Writing the script is part of our job.</p></details><details><summary>What if I don't want to be on camera?</summary></details></div>",
+      "css": ".ds-faq { background:#fff; border:1px solid rgba(22,27,38,.12); border-radius:12px; padding:0 28px; font-family:Geist,Arial,sans-serif; color:#161b26; } .ds-faq details { border-bottom:1px dashed rgba(22,27,38,.22); } .ds-faq details:last-child { border-bottom:0; } .ds-faq summary { list-style:none; padding:22px 0; font-weight:500; font-size:1.125rem; } .ds-faq p { margin:0; padding-bottom:22px; color:#535a68; }"
     },
     {
-      "name": "Video Screen",
+      "name": "Numbered Frame",
       "kind": "custom",
-      "refersTo": "video-play",
-      "description": "Rounded 16:9 navy screen with numbered corner and mustard play button.",
-      "html": "<div class=\"ds-video\"><span class=\"ds-video__corner\">01</span><button class=\"ds-video__play\" aria-label=\"Play video\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M8 5.5v13l10.5-6.5z\" fill=\"currentColor\"/></svg></button></div>",
-      "css": ".ds-video { position: relative; aspect-ratio: 16 / 9; width: 100%; max-width: 480px; border-radius: 16px; overflow: hidden; background: var(--navy, #1a2a4a); } .ds-video::before { content: ''; position: absolute; inset: 0; background: radial-gradient(120% 90% at 30% 20%, rgba(255,255,255,.14), transparent 60%); } .ds-video__corner { position: absolute; left: 16px; top: 12px; font: 800 1.2rem/1 var(--font-display, 'Bricolage Grotesque', sans-serif); color: #fff; z-index: 1; } .ds-video__play { position: absolute; inset: 0; margin: auto; width: 84px; height: 84px; border-radius: 50%; border: 0; background: var(--mustard, #e9b21c); color: var(--navy, #1a2a4a); cursor: pointer; display: grid; place-items: center; box-shadow: 0 12px 24px -10px rgba(0,0,0,.5); transition: transform .3s cubic-bezier(.16, 1, .3, 1); } .ds-video__play svg { width: 36px; height: 36px; margin-left: 4px; } .ds-video:hover .ds-video__play { transform: scale(1.08); } .ds-video__play:focus-visible { outline: 3px solid #fff; outline-offset: 4px; }"
+      "refersTo": "frame-screen",
+      "description": "16:9 flat colour field between sprocket rows, with a mono frame number and one-stroke scene.",
+      "html": "<div class=\"ds-frame\"><div class=\"ds-frame-screen\"><span class=\"ds-frame-num\">01</span><svg viewBox=\"0 0 160 90\" aria-hidden=\"true\"><circle cx=\"44\" cy=\"30\" r=\"9\"/><path d=\"M28 66c0-14 7-22 16-22s16 8 16 22\"/><circle cx=\"116\" cy=\"30\" r=\"9\"/><path d=\"M100 66c0-14 7-22 16-22s16 8 16 22\"/><path d=\"M20 68h120\"/></svg></div><h3>Brief</h3><p>You talk us through what you know.</p><p class=\"ds-frame-when\">[Week 1]</p></div>",
+      "css": ".ds-frame { position: relative; width: 320px; padding-top: 18px; font-family: Geist, Arial, sans-serif; color: #161b26; } .ds-frame::before, .ds-frame::after { content: ''; position: absolute; left: 0; right: 0; height: 6px; background: linear-gradient(90deg, rgba(22,27,38,.22) 0 8px, transparent 8px 16px) 0 0 / 16px 6px repeat-x; } .ds-frame::before { top: 0; } .ds-frame::after { top: calc(18px + 180px + 12px); } .ds-frame-screen { position: relative; aspect-ratio: 16 / 9; border-radius: 12px; overflow: hidden; display: grid; place-items: center; background: #1e5b57; box-shadow: 0 1px 2px rgba(22,27,38,.06), 0 12px 32px -16px rgba(22,27,38,.22); } .ds-frame-screen svg { width: 68%; fill: none; stroke: #fff; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; opacity: .92; } .ds-frame-num { position: absolute; left: 14px; top: 12px; font: 500 .8125rem/1 'Geist Mono', Menlo, monospace; letter-spacing: .06em; color: rgba(255,255,255,.9); } .ds-frame h3 { margin: 1.9rem 0 0; font-weight: 500; font-size: 1.375rem; letter-spacing: -.02em; } .ds-frame p { margin: .35rem 0 0; color: #535a68; font-size: 1rem; } .ds-frame .ds-frame-when { margin-top: .6rem; font: 500 .75rem/1.2 'Geist Mono', Menlo, monospace; letter-spacing: .05em; text-transform: uppercase; color: #666c7a; }"
     },
     {
-      "name": "End Card",
+      "name": "Film Leader Placeholder",
+      "kind": "custom",
+      "refersTo": "frame-screen",
+      "description": "Stand-in for a video not yet supplied: countdown rings and a mono caption bar.",
+      "html": "<div class=\"ds-leader\"><svg viewBox=\"0 0 320 180\" aria-hidden=\"true\"><line x1=\"0\" y1=\"76\" x2=\"320\" y2=\"76\"/><line x1=\"160\" y1=\"0\" x2=\"160\" y2=\"138\"/><circle cx=\"160\" cy=\"76\" r=\"52\"/><circle cx=\"160\" cy=\"76\" r=\"43\"/><text x=\"160\" y=\"96\" text-anchor=\"middle\">3</text></svg><p>Client story \u00b7 coming soon</p></div>",
+      "css": ".ds-leader { position: relative; width: 360px; aspect-ratio: 16 / 9; border-radius: 12px; overflow: hidden; background: #eceae6; color: #161b26; box-shadow: 0 1px 2px rgba(22,27,38,.06), 0 12px 32px -16px rgba(22,27,38,.22); } .ds-leader svg { position: absolute; inset: 0; width: 100%; height: 100%; } .ds-leader line { stroke: currentColor; stroke-width: .75; opacity: .25; } .ds-leader circle { fill: none; stroke: currentColor; stroke-width: 1; opacity: .35; } .ds-leader text { font: 500 44px 'Geist Mono', Menlo, monospace; fill: currentColor; opacity: .75; } .ds-leader p { position: absolute; left: 0; right: 0; bottom: 0; margin: 0; padding: 10px 12px; text-align: center; background: #eceae6; border-top: 1px solid rgba(22,27,38,.12); color: #535a68; font: 500 .75rem/1.2 'Geist Mono', Menlo, monospace; letter-spacing: .05em; text-transform: uppercase; }"
+    },
+    {
+      "name": "The End Card",
       "kind": "card",
       "refersTo": "end-card",
-      "description": "Framed 'The End' title card on the mustard field.",
-      "html": "<div class=\"ds-end\"><div class=\"ds-end__card\"><p class=\"ds-end__title\">The End</p><p class=\"ds-end__sub\">Book a call to start yours.</p></div></div>",
-      "css": ".ds-end { background: var(--mustard, #e9b21c); padding: 40px 24px; } .ds-end__card { aspect-ratio: 16 / 9; max-width: 520px; margin: auto; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; background: var(--screen, #f5f6f2); color: var(--navy, #1a2a4a); border: 3px solid var(--navy, #1a2a4a); border-radius: 22px; padding: 32px; box-shadow: 0 30px 50px -30px rgba(90, 60, 0, .55), inset 0 0 0 10px #f5f6f2, inset 0 0 0 12px rgba(26, 42, 74, .25); } .ds-end__title { font: 800 4rem/.9 var(--font-display, 'Bricolage Grotesque', sans-serif); letter-spacing: -.04em; font-variation-settings: 'wdth' 85; margin: 0 0 .22em; } .ds-end__sub { font-family: var(--font-body, 'Alegreya Sans', 'Gill Sans', sans-serif); color: var(--navy-soft, #4a5670); margin: 0; }"
+      "description": "Closing 16:9 title card with an inner rule and the booking action.",
+      "html": "<div class=\"ds-end\"><p class=\"ds-end-title\">The End</p><h2>Your course starts with one call.</h2><a class=\"ds-end-btn\" href=\"#\">Book a call</a></div>",
+      "css": ".ds-end { width: 560px; aspect-ratio: 16 / 9; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; background: #fff; border: 1px solid rgba(22,27,38,.12); border-radius: 12px; padding: 40px; color: #161b26; box-shadow: 0 1px 2px rgba(22,27,38,.06), 0 12px 32px -16px rgba(22,27,38,.22), inset 0 0 0 10px #fff, inset 0 0 0 11px rgba(22,27,38,.12); font-family: Geist, Arial, sans-serif; } .ds-end-title { margin: 0 0 .3em; font: 600 3.4rem/1 'Spectral SC', Georgia, serif; letter-spacing: .02em; } .ds-end h2 { margin: 0 0 1.4rem; font-weight: 500; font-size: 1.5rem; letter-spacing: -.03em; line-height: 1.05; } .ds-end-btn { display: inline-flex; align-items: center; min-height: 52px; padding: 0 26px; border-radius: 8px; background: #161b26; color: #fff; text-decoration: none; font: 500 1.0625rem/1 Geist, Arial, sans-serif; transition: background-color .2s; } .ds-end-btn:hover { background: #2a3142; } .ds-end-btn:focus-visible { outline: 2px solid #161b26; outline-offset: 3px; }"
     },
     {
-      "name": "FAQ Row",
-      "kind": "custom",
-      "description": "Hairline-ruled disclosure with a drawn chevron; no card chrome.",
-      "html": "<div class=\"ds-faq\"><details><summary>How much of my time does it take?</summary><p>A few short sessions; we handle the rest.</p></details></div>",
-      "css": ".ds-faq { border-top: 2px solid var(--navy, #1a2a4a); color: var(--navy, #1a2a4a); max-width: 560px; } .ds-faq details { border-bottom: 1px solid rgba(26, 42, 74, .16); } .ds-faq summary { list-style: none; cursor: pointer; padding: 22px 48px 22px 0; position: relative; font: 700 1.3rem/1.3 var(--font-display, 'Bricolage Grotesque', sans-serif); letter-spacing: -.01em; } .ds-faq summary::-webkit-details-marker { display: none; } .ds-faq summary::after { content: ''; position: absolute; right: 6px; top: 50%; width: 16px; height: 16px; margin-top: -10px; border-right: 3px solid currentColor; border-bottom: 3px solid currentColor; transform: rotate(45deg); transition: transform .3s cubic-bezier(.16, 1, .3, 1); } .ds-faq details[open] summary::after { transform: rotate(-135deg); margin-top: -2px; } .ds-faq summary:hover { color: var(--teal, #1f7a76); } .ds-faq summary:focus-visible { outline: 3px solid var(--navy, #1a2a4a); outline-offset: 3px; } .ds-faq p { font-family: var(--font-body, 'Alegreya Sans', 'Gill Sans', sans-serif); color: var(--navy-soft, #4a5670); padding-bottom: 22px; margin: 0; }"
+      "name": "Service Card",
+      "description": "White panel opening on a 16:9 leader-grey screen with a one-stroke ink drawing, then title and body. Used for What we make.",
+      "html": "<div class=\"ds-card\"><div class=\"ds-card__screen\"><svg viewBox=\"0 0 160 90\" width=\"70%\"><rect x=\"50\" y=\"36\" width=\"60\" height=\"38\" rx=\"4\"/><path d=\"M50 36l-3-12 58-14 3 12\"/></svg></div><h3>Video and animation</h3><p>Studio filming, animation and explainers that make ideas stick.</p></div>",
+      "css": ".ds-card { max-width:300px; background:#fff; border:1px solid rgba(22,27,38,.12); border-radius:12px; padding:14px 14px 26px; font-family:Geist,Arial,sans-serif; color:#161b26; } .ds-card__screen { aspect-ratio:16/9; border-radius:8px; background:#eceae6; display:grid; place-items:center; margin-bottom:22px; } .ds-card svg { fill:none; stroke:#161b26; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; } .ds-card h3 { margin:0; padding:0 8px; font-weight:500; font-size:1.25rem; letter-spacing:-.02em; } .ds-card p { margin:.6rem 0 0; padding:0 8px; color:#535a68; font-size:1rem; line-height:1.55; }"
     }
   ],
   "narrative": {
-    "northStar": "The Teaching Film",
-    "overview": "Behow is presented as a short educational film. The page opens on a title card, moves through numbered frames, screens the work on a coloured field, and closes on \"The End\". Every surface sits on a projector-screen white ground with navy ink, and the three saturated colours (mustard, teal, navy) never appear as decoration: each one owns a whole region, a whole frame, or the single action.\n\nDensity is calm and generous. Sections breathe on large vertical padding, type sits centred on title cards and left-aligned in reading sections, and long copy is held to readable measures (32 to 40em). Craft lives in a few authored devices: the condensed, heavy grotesque at title-card scale, true small-caps labels, rounded 16:9 screens with numbered corners, faint sprocket perforations above and below the hero frames, and a stepped filmstrip advance on load.\n\nThe world refuses a dark theme, neon, and the cream-and-serif look it replaced.",
+    "northStar": "The Screening Room",
+    "overview": "Behow presents a course the way a teaching film presents a lesson: a title card, three numbered frames on a run of film, a screening, and \"The End\". This revision keeps that structure but plays it with the composure of a serious software page. The ground is a quiet warm neutral, text is near-black navy ink set in one medium-weight grotesque, panels are white with hairline borders, and colour arrives as flat fields inside the frames and one deep-teal band, never as decoration around them.\n\nDensity is calm and generous: centred title card, wide section padding, one idea per row. Film is carried by structure rather than ornament: 16:9 frames, dashed sprocket rows, a film-leader countdown where a video is still missing, monospaced measurement labels, and a small-caps serif reserved for the wordmark and the closing title. Motion is stepped, like film advancing a frame at a time.\n\nThe user moved this world away from a friendly, playful version: no playful display face, no saturated action colour, no dark theme, no neon, no cream-and-serif page.",
     "keyCharacteristics": [
-      "Projector-screen white ground (`screen`) with navy ink; pale teal (`tint`) for alternating reading sections.",
-      "Mustard, teal and navy used as flat fields that own whole regions or frames.",
-      "Mustard is the single action colour.",
-      "Bricolage Grotesque at weight 800, width 85, for every heading; Alegreya Sans for reading; Alegreya Sans SC for labels and the wordmark.",
-      "Rounded 16:9 screens with numbered corners as the recurring container.",
-      "Stepped, frame-by-frame motion, all of it removed under reduced motion."
+      "Warm-neutral ground (#f6f5f3) with white panels and hairline ink borders.",
+      "One typeface family doing the talking: Geist at 500 for headings, 400 for body.",
+      "Geist Mono uppercase for measurements and labels only; Spectral SC for the wordmark and \"The End\" only.",
+      "Numbered 16:9 frames between dashed sprocket rows, each a flat colour field with a one-stroke scene.",
+      "Near-black 8px-radius buttons; a single deep-teal screening band.",
+      "Stepped, frame-advance motion that disappears entirely under reduced motion."
     ],
     "rules": [
       {
-        "name": "The Colour Field Rule",
-        "body": "Mustard, teal and navy appear as flat fields that own a whole region or a whole frame. They are not used as tinted backgrounds for small cards, gradients, or sprinkled accents.",
+        "name": "The One Field Rule",
+        "body": "Teal is a field, not a highlight. It fills a frame or a full band; outside those it appears only as a hover colour on text.",
         "section": "colors"
       },
       {
-        "name": "The One Action Rule",
-        "body": "Mustard means \"book a call\". Every primary action is mustard with navy text; on the mustard field the button flips to navy with screen-white text. No other element competes in mustard except the play button and result chips, which are the proof the action rests on.",
+        "name": "The Ink Is The Action Rule",
+        "body": "Every primary action is near-black ink on white text. No colour button competes with it.",
         "section": "colors"
       },
       {
-        "name": "The Title Card Rule",
-        "body": "Headings are always Bricolage Grotesque at weight 800 with `\"wdth\" 85` and negative tracking (-0.015em to -0.04em). Reading text never uses the grotesque.",
+        "name": "The Sparing Ochre Rule",
+        "body": "Ochre appears in the third frame and the result chip, nowhere else.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Weight Rule",
+        "body": "Headings are Geist 500, never bold. Hierarchy comes from size and tracking.",
         "section": "typography"
       },
       {
-        "name": "The True Small Caps Rule",
-        "body": "Labels use the Alegreya Sans SC face, not uppercase text with wide tracking. There is no `text-transform: uppercase` in the system.",
+        "name": "The Two Title Cards Rule",
+        "body": "Spectral SC sets the wordmark and \"The End\" title (plus the footer wordmark and the name in the about heading). It never sets a section heading or body text.",
         "section": "typography"
       },
       {
-        "name": "The Projected Light Rule",
-        "body": "Shadows are soft, negative-spread and tinted toward the surface below. No hard offset shadows and no black shadows.",
+        "name": "The Measurement Rule",
+        "body": "Mono uppercase is for measurements and labels attached to content: numbers, timings, names, results. It never sits above a heading as an introducer.",
+        "section": "typography"
+      },
+      {
+        "name": "The Screens Only Rule",
+        "body": "Shadows belong to 16:9 screens. Panels, buttons and list rows stay flat with hairlines.",
         "section": "elevation"
-      },
-      {
-        "name": "The Numbered Screen Rule",
-        "body": "A screen is a rounded 16:9 rectangle with a number in its top-left corner, set in the display face at weight 800 (1, 2, 3 on hero frames; 00 to 03 on videos).",
-        "section": "shapes"
       }
     ],
     "dos": [
-      "**Do** keep the page on the projector-screen ground with navy ink, and give mustard, teal and navy whole regions or whole frames.",
-      "**Do** make every Book a call mustard with navy text, flipping to the navy button only on a mustard field.",
-      "**Do** set every heading in Bricolage Grotesque 800 at `\"wdth\" 85` with negative tracking, and every label in Alegreya Sans SC.",
-      "**Do** present video and process content as rounded 16:9 screens with numbered corners.",
-      "**Do** use stepped timing (`steps()`) for signature motion and the expo ease-out `cubic-bezier(.16, 1, .3, 1)` for state changes, and remove all of it under `prefers-reduced-motion`.",
-      "**Do** separate list content with a 2px navy top rule and 1px hairlines instead of cards."
+      "Do make every primary action an ink (#161b26) button with an 8px radius; use the quiet outlined button for the one secondary action.",
+      "Do keep headings in Geist 500 with negative tracking (-0.02 to -0.04em).",
+      "Do carry the film through structure: 16:9 frames, sprocket rows, mono frame numbers and timings, the film leader for missing video.",
+      "Do keep colour inside fields: teal for the first frame and the screening band, ochre for the third frame and result chips.",
+      "Do put shadows only on 16:9 screens and keep panels flat with hairline borders.",
+      "Do make motion stepped like film advancing, and remove it under prefers-reduced-motion."
     ],
     "donts": [
-      "**Don't** introduce a dark theme, neon colour, or a cream ground with a serif face.",
-      "**Don't** use uppercase-tracked eyebrows or kickers above headings; small-caps labels sit below or beside the content they describe.",
-      "**Don't** use hard offset shadows or black drop shadows.",
-      "**Don't** use the saturated colours as gradients or as small tinted card backgrounds.",
-      "**Don't** set body copy in the grotesque or headings in the humanist face.",
-      "**Don't** use glyph or icon-font icons; icons are inline SVG."
+      "Don't introduce a playful or condensed display face, or set headings bold.",
+      "Don't add a saturated action colour; ink is the action.",
+      "Don't add a dark theme or neon accents.",
+      "Don't extend Spectral SC beyond the wordmark and \"The End\" title; no cream-and-serif page.",
+      "Don't place a mono uppercase label above a heading as an eyebrow.",
+      "Don't spread ochre beyond the third frame and the result chip."
     ]
   }
 }

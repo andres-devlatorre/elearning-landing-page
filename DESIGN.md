@@ -1,288 +1,296 @@
 ---
 name: Behow
-description: A teaching-film landing world for an e-learning studio, with a projector-screen ground, flat colour fields, and numbered 16:9 frames.
+description: A composed teaching-film landing world for an e-learning studio, with a quiet warm-neutral ground, near-black ink, one deep-teal field and numbered 16:9 frames between sprocket rows.
 colors:
-  mustard: "#e9b21c"
-  mustard-bright: "#f2c033"
-  mustard-deep: "#c9950a"
-  teal: "#1f7a76"
-  navy: "#1a2a4a"
-  navy-raised: "#24375e"
-  navy-soft: "#4a5670"
-  screen: "#f5f6f2"
-  paper: "#ffffff"
-  tint: "#e3ede9"
-  line: "rgba(26, 42, 74, .16)"
+  ink: "#161b26"
+  ink-hover: "#2a3142"
+  ink-soft: "#535a68"
+  ink-faint: "#666c7a"
+  teal: "#1e5b57"
+  ochre: "#c4973a"
+  ochre-tint: "#f3ead8"
+  ochre-ink: "#6b4f14"
+  ground: "#f6f5f3"
+  ground-tint: "#efeeea"
+  panel: "#ffffff"
+  leader: "#eceae6"
+  line: "rgba(22, 27, 38, .12)"
+  line-strong: "rgba(22, 27, 38, .22)"
 typography:
   display:
-    fontFamily: "Bricolage Grotesque, Avenir Next Condensed, sans-serif"
-    fontSize: "clamp(3rem, 8.4vw, 6rem)"
-    fontWeight: 800
-    lineHeight: 1
-    letterSpacing: "-0.035em"
-    fontVariation: "\"wdth\" 85"
-  display-end:
-    fontFamily: "Bricolage Grotesque, Avenir Next Condensed, sans-serif"
-    fontSize: "clamp(4rem, 11vw, 7.5rem)"
-    fontWeight: 800
-    lineHeight: 0.9
+    fontFamily: "Geist, Helvetica Neue, Arial, sans-serif"
+    fontSize: "clamp(2.75rem, 6.4vw, 5rem)"
+    fontWeight: 500
+    lineHeight: 1.02
     letterSpacing: "-0.04em"
-    fontVariation: "\"wdth\" 85"
   headline:
-    fontFamily: "Bricolage Grotesque, Avenir Next Condensed, sans-serif"
-    fontSize: "clamp(2.1rem, 4.6vw, 3.5rem)"
-    fontWeight: 800
-    lineHeight: 1
-    letterSpacing: "-0.025em"
-    fontVariation: "\"wdth\" 85"
+    fontFamily: "Geist, Helvetica Neue, Arial, sans-serif"
+    fontSize: "clamp(2rem, 3.8vw, 3.1rem)"
+    fontWeight: 500
+    lineHeight: 1.05
+    letterSpacing: "-0.03em"
   title:
-    fontFamily: "Bricolage Grotesque, Avenir Next Condensed, sans-serif"
-    fontSize: "1.6rem"
-    fontWeight: 800
-    lineHeight: 1
-    letterSpacing: "-0.015em"
-    fontVariation: "\"wdth\" 85"
-  quote:
-    fontFamily: "Bricolage Grotesque, Avenir Next Condensed, sans-serif"
-    fontSize: "1.35rem"
-    fontWeight: 600
-    lineHeight: 1.3
+    fontFamily: "Geist, Helvetica Neue, Arial, sans-serif"
+    fontSize: "1.375rem"
+    fontWeight: 500
+    lineHeight: 1.2
+    letterSpacing: "-0.02em"
+  title-sm:
+    fontFamily: "Geist, Helvetica Neue, Arial, sans-serif"
+    fontSize: "1.125rem"
+    fontWeight: 500
+    lineHeight: 1.4
     letterSpacing: "-0.01em"
   lead:
-    fontFamily: "Alegreya Sans, Gill Sans, sans-serif"
-    fontSize: "clamp(1.2rem, 1.9vw, 1.4rem)"
+    fontFamily: "Geist, Helvetica Neue, Arial, sans-serif"
+    fontSize: "clamp(1.125rem, 1.6vw, 1.25rem)"
     fontWeight: 400
-    lineHeight: 1.6
+    lineHeight: 1.55
   body:
-    fontFamily: "Alegreya Sans, Gill Sans, sans-serif"
-    fontSize: "1.1875rem"
+    fontFamily: "Geist, Helvetica Neue, Arial, sans-serif"
+    fontSize: "1.0625rem"
     fontWeight: 400
     lineHeight: 1.6
   button:
-    fontFamily: "Alegreya Sans, Gill Sans, sans-serif"
-    fontSize: "1.1rem"
-    fontWeight: 700
+    fontFamily: "Geist, Helvetica Neue, Arial, sans-serif"
+    fontSize: "1rem"
+    fontWeight: 500
     lineHeight: 1
-    letterSpacing: "0.01em"
+    letterSpacing: "-0.005em"
   label:
-    fontFamily: "Alegreya Sans SC, Alegreya Sans, sans-serif"
-    fontSize: "0.95rem"
-    fontWeight: 700
+    fontFamily: "Geist Mono, ui-monospace, SF Mono, Menlo, monospace"
+    fontSize: "0.75rem"
+    fontWeight: 500
     lineHeight: 1.2
     letterSpacing: "0.05em"
-  wordmark:
-    fontFamily: "Alegreya Sans SC, Alegreya Sans, sans-serif"
-    fontSize: "2rem"
-    fontWeight: 800
+  frame-number:
+    fontFamily: "Geist Mono, ui-monospace, SF Mono, Menlo, monospace"
+    fontSize: "0.8125rem"
+    fontWeight: 500
     lineHeight: 1
-    letterSpacing: "0.015em"
+    letterSpacing: "0.06em"
+  wordmark:
+    fontFamily: "Spectral SC, Iowan Old Style, Georgia, serif"
+    fontSize: "1.6rem"
+    fontWeight: 600
+    lineHeight: 1
+    letterSpacing: "0.03em"
+  end-title:
+    fontFamily: "Spectral SC, Iowan Old Style, Georgia, serif"
+    fontSize: "clamp(3.4rem, 8vw, 5.75rem)"
+    fontWeight: 600
+    lineHeight: 1
+    letterSpacing: "0.02em"
 rounded:
-  frame-sm: "12px"
-  frame: "16px"
-  frame-lg: "22px"
-  pill: "999px"
+  chip: "6px"
+  sm: "8px"
+  md: "12px"
+  full: "50%"
 spacing:
   gutter: "24px"
-  container: "1200px"
-  container-mid: "960px"
+  strip-gap: "clamp(16px, 2vw, 24px)"
+  cta-gap: "12px"
+  sprocket-band: "18px"
   section: "clamp(80px, 10vw, 128px)"
-  section-head: "clamp(40px, 5vw, 60px)"
-  nav-height: "76px"
+  nav-height: "68px"
 components:
   button-primary:
-    backgroundColor: "{colors.mustard}"
-    textColor: "{colors.navy}"
+    backgroundColor: "{colors.ink}"
+    textColor: "{colors.panel}"
     typography: "{typography.button}"
-    rounded: "{rounded.pill}"
-    padding: "0 30px"
-    height: "52px"
+    rounded: "{rounded.sm}"
+    padding: "0 20px"
+    height: "46px"
   button-primary-hover:
-    backgroundColor: "{colors.mustard-bright}"
+    backgroundColor: "{colors.ink-hover}"
+    textColor: "{colors.panel}"
   button-quiet:
     backgroundColor: "transparent"
-    textColor: "{colors.navy}"
-    rounded: "{rounded.pill}"
-    padding: "0 30px"
-    height: "52px"
+    textColor: "{colors.ink}"
+    typography: "{typography.button}"
+    rounded: "{rounded.sm}"
+    padding: "0 20px"
+    height: "46px"
   button-quiet-hover:
-    backgroundColor: "{colors.navy}"
-    textColor: "{colors.screen}"
-  button-navy:
-    backgroundColor: "{colors.navy}"
-    textColor: "{colors.screen}"
-    rounded: "{rounded.pill}"
-    padding: "0 44px"
-    height: "62px"
-  button-navy-hover:
-    backgroundColor: "{colors.navy-raised}"
+    backgroundColor: "{colors.panel}"
+    textColor: "{colors.ink}"
   button-small:
-    padding: "0 22px"
-    height: "44px"
+    padding: "0 16px"
+    height: "40px"
+  button-large:
+    padding: "0 26px"
+    height: "52px"
   result-chip:
-    backgroundColor: "{colors.mustard}"
-    textColor: "{colors.navy}"
+    backgroundColor: "{colors.ochre-tint}"
+    textColor: "{colors.ochre-ink}"
     typography: "{typography.label}"
-    rounded: "{rounded.pill}"
-    padding: "8px 14px"
+    rounded: "{rounded.chip}"
+    padding: "7px 10px"
+  panel-list:
+    backgroundColor: "{colors.panel}"
+    rounded: "{rounded.md}"
+    padding: "0 clamp(20px, 3vw, 36px)"
   frame-screen:
-    rounded: "{rounded.frame}"
-  video-play:
-    backgroundColor: "{colors.mustard}"
-    textColor: "{colors.navy}"
-    size: "84px"
-  nav:
-    backgroundColor: "{colors.screen}"
-    textColor: "{colors.navy-soft}"
-    height: "{spacing.nav-height}"
+    rounded: "{rounded.md}"
   end-card:
-    backgroundColor: "{colors.screen}"
-    textColor: "{colors.navy}"
-    rounded: "{rounded.frame-lg}"
+    backgroundColor: "{colors.panel}"
+    rounded: "{rounded.md}"
     padding: "clamp(32px, 5vw, 64px)"
+  nav:
+    textColor: "{colors.ink-soft}"
+    height: "{spacing.nav-height}"
 ---
 
 # Design System: Behow
 
 ## Overview
 
-**Creative North Star: "The Teaching Film"**
+**Creative North Star: "The Screening Room"**
 
-Behow is presented as a short educational film. The page opens on a title card, moves through numbered frames, screens the work on a coloured field, and closes on "The End". Every surface sits on a projector-screen white ground with navy ink, and the three saturated colours (mustard, teal, navy) never appear as decoration: each one owns a whole region, a whole frame, or the single action.
+Behow presents a course the way a teaching film presents a lesson: a title card, three numbered frames on a run of film, a screening, and "The End". This revision keeps that structure but plays it with the composure of a serious software page. The ground is a quiet warm neutral, text is near-black navy ink set in one medium-weight grotesque, panels are white with hairline borders, and colour arrives as flat fields inside the frames and one deep-teal band, never as decoration around them.
 
-Density is calm and generous. Sections breathe on large vertical padding, type sits centred on title cards and left-aligned in reading sections, and long copy is held to readable measures (32 to 40em). Craft lives in a few authored devices: the condensed, heavy grotesque at title-card scale, true small-caps labels, rounded 16:9 screens with numbered corners, faint sprocket perforations above and below the hero frames, and a stepped filmstrip advance on load.
+Density is calm and generous: centred title card, wide section padding, one idea per row. Film is carried by structure rather than ornament: 16:9 frames, dashed sprocket rows, a film-leader countdown where a video is still missing, monospaced measurement labels, and a small-caps serif reserved for the wordmark and the closing title. Motion is stepped, like film advancing a frame at a time.
 
-The world refuses a dark theme, neon, and the cream-and-serif look it replaced.
+The user moved this world away from a friendly, playful version: no playful display face, no saturated action colour, no dark theme, no neon, no cream-and-serif page.
 
 **Key Characteristics:**
-- Projector-screen white ground (`screen`) with navy ink; pale teal (`tint`) for alternating reading sections.
-- Mustard, teal and navy used as flat fields that own whole regions or frames.
-- Mustard is the single action colour.
-- Bricolage Grotesque at weight 800, width 85, for every heading; Alegreya Sans for reading; Alegreya Sans SC for labels and the wordmark.
-- Rounded 16:9 screens with numbered corners as the recurring container.
-- Stepped, frame-by-frame motion, all of it removed under reduced motion.
+- Warm-neutral ground (#f6f5f3) with white panels and hairline ink borders.
+- One typeface family doing the talking: Geist at 500 for headings, 400 for body.
+- Geist Mono uppercase for measurements and labels only; Spectral SC for the wordmark and "The End" only.
+- Numbered 16:9 frames between dashed sprocket rows, each a flat colour field with a one-stroke scene.
+- Near-black 8px-radius buttons; a single deep-teal screening band.
+- Stepped, frame-advance motion that disappears entirely under reduced motion.
 
 ## Colors
 
-A cool projector-white ground with navy ink, lit by three flat fields: warm mustard, mid teal, and deep navy.
+A restrained neutral palette of ink on warm paper, with one deep teal field and a muted ochre used sparingly.
 
 ### Primary
-- **Projector Mustard** (`mustard`): the action colour. It fills every Book a call button, the play button on every video, and the result chips on client stories. As a field it owns the closing "The End" section and the third hero frame (Launch). Text on it is always navy.
-- **Lit Mustard** (`mustard-bright`): hover state of the mustard button only.
-- **Burnt Mustard** (`mustard-deep`): source hue of the warm glow under mustard buttons; not used as a fill.
+- **Projection Ink** (`ink`): text, every primary button, the second frame's field, the focus ring and text selection. It is the action colour; the page has no separate bright accent.
+- **Lifted Ink** (`ink-hover`): primary button hover only.
 
 ### Secondary
-- **Classroom Teal** (`teal`): the screening field behind the trailer and the first hero frame (Brief). White text on it passes AA. Also the hover colour of FAQ questions.
+- **Screening Teal** (`teal`): the first frame's field and the full-bleed screening band behind the trailer, with white text on it. Also the FAQ question hover colour.
+
+### Tertiary
+- **Muted Ochre** (`ochre`): the third frame's field, drawn with ink strokes and an ink frame number.
+- **Ochre Tint** (`ochre-tint`) with **Ochre Ink** (`ochre-ink`): the result chip on client screenings, the only other place ochre appears.
 
 ### Neutral
-- **Ink Navy** (`navy`): all headings and body ink, the second hero frame (Produce), the navy button used on the mustard field, focus rings, and the 2px top rules that open lists.
-- **Raised Navy** (`navy-raised`): hover state of the navy button.
-- **Soft Navy** (`navy-soft`): secondary text: leads, sublines, frame asks, list descriptions, nav links, footer.
-- **Projector Screen** (`screen`): the page ground, the nav (translucent with blur), the end card, the mobile dock.
-- **Paper White** (`paper`): the 10px mat around the featured trailer and white text and strokes on teal and navy fields.
-- **Pale Teal Field** (`tint`): alternating section ground (services, about).
-- **Hairline** (`line`): 1px dividers between list rows, section rules, nav and footer borders.
+- **Warm Ground** (`ground`): page background, nav (translucent), mobile menu and booking dock.
+- **Tint Ground** (`ground-tint`): alternate section background (services, about).
+- **Panel White** (`panel`): ruled list panels, the end card, the play button, text on ink.
+- **Leader Grey** (`leader`): the film-leader placeholder field and its caption bar.
+- **Soft Ink** (`ink-soft`): secondary text, leads, nav links, captions.
+- **Faint Ink** (`ink-faint`): tertiary mono labels (timings, client names) on light grounds.
+- **Hairline** (`line`): panel borders, nav and footer rules.
+- **Strong Hairline** (`line-strong`): sprocket dashes, dashed row dividers, quiet-button borders.
 
 ### Named Rules
-**The Colour Field Rule.** Mustard, teal and navy appear as flat fields that own a whole region or a whole frame. They are not used as tinted backgrounds for small cards, gradients, or sprinkled accents.
+**The One Field Rule.** Teal is a field, not a highlight. It fills a frame or a full band; outside those it appears only as a hover colour on text.
 
-**The One Action Rule.** Mustard means "book a call". Every primary action is mustard with navy text; on the mustard field the button flips to navy with screen-white text. No other element competes in mustard except the play button and result chips, which are the proof the action rests on.
+**The Ink Is The Action Rule.** Every primary action is near-black ink on white text. No colour button competes with it.
+
+**The Sparing Ochre Rule.** Ochre appears in the third frame and the result chip, nowhere else.
 
 ## Typography
 
-**Display Font:** Bricolage Grotesque, variable, self-hosted (with Avenir Next Condensed, sans-serif)
-**Body Font:** Alegreya Sans, self-hosted (with Gill Sans, sans-serif)
-**Label Font:** Alegreya Sans SC, self-hosted (with Alegreya Sans)
+**Display Font:** Geist (with Helvetica Neue, Arial)
+**Body Font:** Geist (with Helvetica Neue, Arial)
+**Label/Mono Font:** Geist Mono (with ui-monospace, SF Mono, Menlo)
+**Title Font:** Spectral SC (with Iowan Old Style, Georgia), wordmark and "The End" only
 
-**Character:** A heavy, slightly condensed grotesque reads like the title cards of an old classroom film; the humanist Alegreya Sans keeps the reading warm and plain; true small caps from the same family give labels and the wordmark a printed, credit-roll quality without shouting.
+**Character:** A plain, tightly tracked grotesque at medium weight gives the page its seriousness; the mono labels read as slate and timecode markings; the small-caps serif is the film's title card, used twice.
 
 ### Hierarchy
-- **Display** (800, clamp(3rem, 8.4vw, 6rem), line-height 1, width 85): the hero title card headline only, centred, max 11.5em.
-- **Display End** (800, clamp(4rem, 11vw, 7.5rem), line-height 0.9): "The End" on the closing card only.
-- **Headline** (800, clamp(2.1rem, 4.6vw, 3.5rem), line-height 1): section headings.
-- **Title** (800, 1.6rem; 1.75rem on hero frames; clamp(1.6rem, 2.6vw, 2.1rem) on service rows; 1.3rem on FAQ questions at weight 700): item headings.
-- **Quote** (600, 1.35rem, line-height 1.3): client quotes in the display face.
-- **Lead** (400, clamp(1.2rem, 1.9vw, 1.4rem)): sublines under headings, in soft navy, max 32 to 34em.
-- **Body** (400, 1.1875rem, line-height 1.6): reading text, max 34 to 40em.
-- **Label** (Alegreya Sans SC 700, 0.95rem, letter-spacing 0.05em): frame timings, result chips, client names (1.2rem), pending-video notes.
-- **Wordmark** (Alegreya Sans SC 800, 2rem): "behow", set lowercase so it renders in small caps.
+- **Display** (500, clamp 2.75 to 5rem, 1.02, -0.04em): the title-card headline, centred, max 12em, balanced.
+- **Headline** (500, clamp 2 to 3.1rem, 1.05, -0.03em): section headings.
+- **Title** (500, 1.375rem, 1.2, -0.02em): frame titles and service rows (services scale to clamp 1.25 to 1.5rem).
+- **Title Small** (500, 1.125rem, 1.4, -0.01em): FAQ questions and client quotes.
+- **Lead** (400, clamp 1.125 to 1.25rem, 1.55): subline under headings in soft ink, max 36em.
+- **Body** (400, 1.0625rem, 1.6): running text, kept to 34 to 40em in practice.
+- **Label** (Geist Mono 500, 0.75 to 0.8125rem, 0.04 to 0.05em, uppercase): timings, client names, result chips, placeholder captions.
+- **Frame Number** (Geist Mono 500, 0.8125rem, 0.06em): the digit in each frame's corner, rendered with a leading zero.
 
 ### Named Rules
-**The Title Card Rule.** Headings are always Bricolage Grotesque at weight 800 with `"wdth" 85` and negative tracking (-0.015em to -0.04em). Reading text never uses the grotesque.
+**The One Weight Rule.** Headings are Geist 500, never bold. Hierarchy comes from size and tracking.
 
-**The True Small Caps Rule.** Labels use the Alegreya Sans SC face, not uppercase text with wide tracking. There is no `text-transform: uppercase` in the system.
+**The Two Title Cards Rule.** Spectral SC sets the wordmark and "The End" title (plus the footer wordmark and the name in the about heading). It never sets a section heading or body text.
+
+**The Measurement Rule.** Mono uppercase is for measurements and labels attached to content: numbers, timings, names, results. It never sits above a heading as an introducer.
 
 ## Layout
 
-A single-column narrative sequence. Content sits in a 1200px container with a 24px side gutter (960px for the trailer section). Sections use clamp(80px, 10vw, 128px) block padding and alternate between the screen ground, the pale teal field, and a hairline-ruled screen section; the trailer section (teal) and The End (mustard) are full-bleed colour fields.
+Content sits in a 1200px container (960px for the screening and end card) with a 24px gutter. The title card is centred; sections below are left-aligned with a heading block capped at 760px. Section padding is clamp(80px, 10vw, 128px); the hero and screening are slightly tighter.
 
-The hero is centred: headline, subline, two buttons, then the three-frame strip in a 3-column grid (gap clamp(16px, 2.4vw, 32px), max 1152px). Lists (services, FAQ) open with a 2px navy rule and separate rows with 1px hairlines rather than cards. Client stories sit in three columns from 720px.
+The hero strip is a three-column grid (max 1152px) with a clamp(16px, 2vw, 24px) gap. Each frame reserves an 18px band above its screen for the sprocket row and repeats one under it; the rows run continuously across the gaps. Client screenings use the same frame-on-strip grammar in a three-column grid from 720px.
 
-Breakpoints: 720px (client stories go to 3 columns, service rows to a 2-column label/description grid), 860px (nav collapses to a toggle menu below), 900px (FAQ and about go to two columns). Below 720px the hero strip becomes a stacked list with a 132px thumbnail frame beside its text, and a mustard Book a call dock fixes to the bottom of the viewport.
+Breakpoints: at 720px and up, services become a two-column row (title, description) and screenings go to three columns; at 900px and up, FAQ and about split into two columns; at 860px and below, the nav collapses to a menu toggle; at 720px and below, hero frames become rows with a 124px thumbnail beside the text, sprocket rows are hidden, the hero buttons stack, and a fixed booking dock appears once the hero buttons scroll away.
 
 ## Elevation & Depth
 
-Mostly flat, with soft projected-light shadows under screens. Shadows use a large blur with a negative spread so they pool below the object rather than outlining it, and they are tinted navy (or warm brown under mustard) rather than black. The nav uses a translucent screen ground with backdrop blur. The closing card uses a double inset border (a screen-white mat, then a faint navy line) to read as a framed title card.
+A mostly flat system: depth comes from white panels on the warm ground and from hairline borders. One soft shadow lifts the 16:9 screens so they read as projected images.
 
 ### Shadow Vocabulary
-- **Screen** (`box-shadow: 0 18px 36px -18px rgba(26, 42, 74, .35)`): hero frames and the about photo.
-- **Feature screen** (`box-shadow: 0 34px 60px -30px rgba(10, 30, 40, .7)`): the featured trailer on the teal field.
-- **Mustard glow** (`box-shadow: 0 10px 20px -12px rgba(201, 149, 10, .9)`): primary buttons at rest; deepens on hover.
-- **End card** (`box-shadow: 0 30px 50px -30px rgba(90, 60, 0, .55), inset 0 0 0 10px #f5f6f2, inset 0 0 0 12px rgba(26, 42, 74, .25)`): the closing title card on the mustard field.
+- **Screen lift** (`box-shadow: 0 1px 2px rgba(22, 27, 38, .06), 0 12px 32px -16px rgba(22, 27, 38, .22)`): hero frames, client screening videos, the end card.
+- **Feature screen** (`box-shadow: 0 30px 60px -32px rgba(5, 20, 20, .8)` with a 1px white 22% border): the trailer on the teal band only.
+- **Play button** (`box-shadow: 0 10px 24px -10px rgba(0,0,0,.45)`): the round play control on a video.
+- **Title-card inset** (`inset 0 0 0 10px #fff, inset 0 0 0 11px` hairline): the inner rule that makes the end card read as a title card.
 
 ### Named Rules
-**The Projected Light Rule.** Shadows are soft, negative-spread and tinted toward the surface below. No hard offset shadows and no black shadows.
+**The Screens Only Rule.** Shadows belong to 16:9 screens. Panels, buttons and list rows stay flat with hairlines.
 
 ## Shapes
 
-Rounded rectangles and pills. Screens use a gently rounded 16px corner (12px for the mobile thumbnail frames, 22px for the featured trailer and the end card). Every button and chip is a full pill (999px); the play button is a circle. Video and frame screens keep a 16:9 aspect ratio; the founder photo is the one 6:7 exception. Illustrations inside frames are drawn in a single round-capped 3.5px stroke, white on teal and navy, navy on mustard.
-
-### Named Rules
-**The Numbered Screen Rule.** A screen is a rounded 16:9 rectangle with a number in its top-left corner, set in the display face at weight 800 (1, 2, 3 on hero frames; 00 to 03 on videos).
+Gently rounded and consistent: 12px on every screen, panel and card; 8px on buttons; 6px on the result chip; a full circle for the play button; a 4px radius on focus outlines. Mobile hero thumbnails tighten to 10px. Dividers inside panels are dashed strong hairlines, echoing the sprocket dashes; outer panel borders are solid hairlines. The sprocket row is a 6px-tall dash pattern, 8px dash in a 16px period, in the strong hairline colour.
 
 ## Components
 
 ### Buttons
-Confident pills with a warm lift.
-- **Shape:** full pill (999px), 2px border matching the fill, 52px tall, 30px side padding.
-- **Primary:** mustard fill, navy text, Alegreya Sans 700 at 1.1rem, mustard glow shadow.
-- **Hover / Focus:** brightens to lit mustard and lifts 2px with a deeper glow (0.25s, expo ease-out); returns to rest on press. Focus is a 3px navy outline with 3px offset.
-- **Quiet:** transparent with a navy border and navy text; fills navy with screen text on hover. Used for the secondary hero action.
-- **Navy:** navy fill and screen text, used only on the mustard field.
-- **Sizes:** small (44px, nav), large (62px, 44px padding, end card), block (full width, mobile dock). An inline SVG icon may lead the label at 1.1em.
+Composed and quiet.
+- **Shape:** gently curved (8px), 1px border, min height 46px.
+- **Primary:** ink fill, white text, Geist 500 1rem, 0 20px padding; hover lifts to Lifted Ink; active nudges down 1px.
+- **Quiet:** transparent with a strong-hairline border and ink text; hover fills white and the border goes ink. Used for "Watch the trailer" with a 1em inline SVG play icon.
+- **Sizes:** small (40px, 0 16px, 0.9375rem) in the nav; large (52px, 0 26px, 1.0625rem) in the end card; block width in the mobile dock.
+- **Focus:** 2px ink outline, 3px offset.
 
 ### Chips
-- **Result chip:** mustard pill, navy small-caps label (0.95rem, 0.04em tracking), 8px by 14px padding. Sits above each client quote.
+- **Result chip:** Ochre Tint ground, Ochre Ink mono uppercase label, 6px radius, 7px 10px padding. Sits above a client quote.
 
 ### Cards / Containers
-- **Hero frame:** a 16:9 screen in teal, navy or mustard with a numbered corner and a one-stroke illustration, followed by a title, a soft-navy "what it asks of you" line, and a small-caps timing label. No card chrome around the text.
-- **List rows (services, FAQ):** no cards. A 2px navy top rule opens the list; rows are separated by 1px hairlines with 22 to 28px block padding.
-- **End card:** a screen-white 16:9 card with a 3px navy border, 22px corners and the double inset mat, centred on the mustard field.
+- **Service card** (What we make): white panel, 1px hairline, 12px radius, 14px inset; opens on a 16:9 leader-grey (#eceae6) screen with an 8px radius holding a one-stroke ink drawing (2px stroke, 74% width), then a 1.375rem Geist 500 title and soft-ink body. Four across from 1080px, two from 720px, one below. Hover lifts 2px, strengthens the hairline and adds the screen shadow.
+- **Ruled panel** (FAQ): white, 1px hairline, 12px radius, horizontal padding only; rows are divided by dashed strong hairlines, last row undivided.
+- **FAQ rows:** disclosure rows with a CSS-drawn chevron (1.5px ink strokes) that rotates open over 0.3s.
 
 ### Navigation
-- **Style:** sticky, 76px tall, translucent screen ground with blur and a hairline bottom border. Small-caps wordmark left; soft-navy links (Alegreya Sans 500) with 32px gaps and a small mustard Book a call right.
-- **States:** links darken to navy and underline on hover.
-- **Mobile (860px and below):** a three-line toggle (48px target) that morphs into an X; the menu drops below the bar as stacked hairline-separated links with the button at the foot.
+- Sticky, 68px, translucent warm ground with blur and a bottom hairline. Spectral SC wordmark at left; soft-ink 0.9375rem links that go ink on hover; small primary "Book a call". Below 860px a three-line toggle (48px target) opens a full-width stacked menu with hairline-separated links.
 
-### Video Screen
-The signature proof container. A rounded 16:9 navy screen with a soft top-left light sheen, a numbered corner, and a centred 84px mustard play button that scales up on hover. Clicking swaps in a privacy-mode YouTube embed. While an ID is still a placeholder, the screen shows a film-leader countdown (concentric rings, crosshairs, a large "3") on a pale ground, with a small-caps note in a hairline-topped band along the bottom edge, instead of a broken player.
+### Numbered Frame (signature)
+A 16:9 screen in a flat field (teal, ink, ochre), 12px radius, screen-lift shadow, with a one-stroke white line drawing (2.5px, round caps; ink on ochre) at 68% width. A mono frame number sits in the top-left corner with a leading zero. Under the screen: title, one-line ask in soft ink, a mono uppercase timing in faint ink. Frames sit between sprocket rows. On load the strip advances into place in three stepped jumps (0.84s, steps(3, jump-none), 0.15s delay); on mobile each row steps in from 40px in two jumps, staggered 0.12s.
 
-### Filmstrip Strip
-The hero's three frames run between two rows of faint sprocket perforations (8px-tall repeating 10px navy dashes at 20% opacity, one row above the screens and one below, bridging the gaps so the three read as one run of film) and advance in on load in three stepped jumps (0.84s, `steps(3, jump-none)`). On mobile the perforations are dropped and each frame instead steps in over two steps, staggered by 0.12s.
+### Video Screen and Film Leader
+A 16:9 ink screen, 12px radius, loaded on click. With a real video: thumbnail, a 72px white round play button that scales to 1.06 on hover while the image scales to 1.02. Without one: a Leader Grey field with a film-leader countdown (two thin rings, crosshairs, a mono "3") and a mono uppercase "coming soon" caption bar along the bottom edge.
+
+### The End Card
+A white 16:9 card with the title-card inset rule and screen lift. "The End" in Spectral SC at end-title scale, a headline, a soft-ink sub, and a large primary button. Contact links sit beneath at 44px targets. On mobile the card drops its aspect ratio.
+
+### Booking Dock
+Mobile only (720px and below): a fixed bottom bar on translucent warm ground with a top hairline and a full-width primary button. Slides up once the hero buttons leave the screen and steps aside while the end card is in view.
 
 ## Do's and Don'ts
 
 ### Do:
-- **Do** keep the page on the projector-screen ground with navy ink, and give mustard, teal and navy whole regions or whole frames.
-- **Do** make every Book a call mustard with navy text, flipping to the navy button only on a mustard field.
-- **Do** set every heading in Bricolage Grotesque 800 at `"wdth" 85` with negative tracking, and every label in Alegreya Sans SC.
-- **Do** present video and process content as rounded 16:9 screens with numbered corners.
-- **Do** use stepped timing (`steps()`) for signature motion and the expo ease-out `cubic-bezier(.16, 1, .3, 1)` for state changes, and remove all of it under `prefers-reduced-motion`.
-- **Do** separate list content with a 2px navy top rule and 1px hairlines instead of cards.
+- **Do** make every primary action an ink (#161b26) button with an 8px radius; use the quiet outlined button for the one secondary action.
+- **Do** keep headings in Geist 500 with negative tracking (-0.02 to -0.04em).
+- **Do** carry the film through structure: 16:9 frames, sprocket rows, mono frame numbers and timings, the film leader for missing video.
+- **Do** keep colour inside fields: teal for the first frame and the screening band, ochre for the third frame and result chips.
+- **Do** put shadows only on 16:9 screens and keep panels flat with hairline borders.
+- **Do** make motion stepped like film advancing, and remove it under prefers-reduced-motion.
 
 ### Don't:
-- **Don't** introduce a dark theme, neon colour, or a cream ground with a serif face.
-- **Don't** use uppercase-tracked eyebrows or kickers above headings; small-caps labels sit below or beside the content they describe.
-- **Don't** use hard offset shadows or black drop shadows.
-- **Don't** use the saturated colours as gradients or as small tinted card backgrounds.
-- **Don't** set body copy in the grotesque or headings in the humanist face.
-- **Don't** use glyph or icon-font icons; icons are inline SVG.
+- **Don't** introduce a playful or condensed display face, or set headings bold.
+- **Don't** add a saturated action colour; ink is the action.
+- **Don't** add a dark theme or neon accents.
+- **Don't** extend Spectral SC beyond the wordmark and "The End" title; no cream-and-serif page.
+- **Don't** place a mono uppercase label above a heading as an eyebrow.
+- **Don't** spread ochre beyond the third frame and the result chip.
