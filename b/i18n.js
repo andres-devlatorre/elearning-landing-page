@@ -150,6 +150,8 @@ const ES = {
   "We'll talk about what you know and map out the simplest way to turn it into a course.":
     "Hablaremos de lo que sabes y trazaremos la forma más sencilla de convertirlo en un curso.",
   "Email us": "Escríbenos",
+  "With [Your Name], founder": "Con [Tu nombre], quien fundó Behow",
+  "[Free]": "[Gratis]",
   "Studio": "Estudio",
   "Help": "Ayuda",
   "Behow, back to top": "Behow, volver arriba",

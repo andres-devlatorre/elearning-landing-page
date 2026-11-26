@@ -11,7 +11,7 @@
   <meta property="og:type" content="website">
   <!-- TODO: add assets/og-image.jpg (1200x630) and use its full URL once the site is hosted -->
   <meta property="og:image" content="../assets/og-image.jpg">
-  <meta name="theme-color" content="#0d3b30">
+  <meta name="theme-color" content="#135443">
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
   <link rel="preload" href="fonts/inter-tight-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
@@ -64,6 +64,10 @@
           <a class="btn" href="#book" data-calendly>Book a call</a>
           <a class="link" href="#work">Watch the trailer</a>
         </div>
+        <!-- TODO: replace with 4 to 6 real client names or logos -->
+        <ul class="logos" aria-label="Clients">
+          <li>[Client name]</li><li>[Client name]</li><li>[Client name]</li><li>[Client name]</li>
+        </ul>
       </div>
     </section>
 
@@ -158,6 +162,7 @@
             </div>
             <div class="status">
               <p class="status__title">Course status</p>
+              <div class="status__meter"><span></span></div>
               <dl>
                 <div><dt>Brief</dt><dd class="ok">Done</dd></div>
                 <div><dt>Scripts</dt><dd class="ok">Approved</dd></div>
@@ -172,7 +177,7 @@
     </section>
 
     <!-- HOW IT WORKS -->
-    <section class="section" id="how">
+    <section id="how">
       <div class="wrap">
         <h2 class="title-split"><span>From what you know</span> to a finished course</h2>
         <!-- TODO: confirm the timings in each step -->
@@ -196,16 +201,11 @@
             <p class="step__when">[Week 5]</p>
           </li>
         </ol>
-        <!-- TODO: replace with real client names or logos -->
-        <ul class="logos" aria-label="Clients">
-          <li>[Client name]</li><li>[Client name]</li><li>[Client name]</li><li>[Client name]</li>
-          <li>[Client name]</li><li>[Client name]</li><li>[Client name]</li><li>[Client name]</li>
-        </ul>
       </div>
     </section>
 
     <!-- OUR WORK: the one colour field -->
-    <section class="section section--flush" id="work">
+    <section id="work">
       <div class="wrap">
         <div class="field">
           <div class="field__head">
@@ -231,12 +231,15 @@
               <p>Short, clear lessons your learners actually finish.</p>
             </li>
           </ul>
+          <div class="field__cta">
+            <a class="btn btn--light" href="#book" data-calendly>Book a call</a>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- CLIENTS -->
-    <section class="section" id="results">
+    <section id="results">
       <div class="wrap">
         <h2 class="title-split"><span>Don't take our word for it.</span> Hear it from our clients.</h2>
         <!-- TODO: replace YouTube IDs, results, quotes and names with real ones -->
@@ -270,7 +273,7 @@
     </section>
 
     <!-- QUESTIONS -->
-    <section class="section" id="questions">
+    <section id="questions">
       <div class="wrap faq">
         <div class="faq__intro">
           <h2>First course? Good questions to ask.</h2>
@@ -304,7 +307,7 @@
     </section>
 
     <!-- ABOUT -->
-    <section class="section section--flush" id="about">
+    <section id="about">
       <div class="wrap">
         <div class="about">
           <div class="about__photo">
@@ -323,12 +326,20 @@
     </section>
 
     <!-- CLOSING CALL TO ACTION -->
-    <section class="section" id="book">
+    <section id="book">
       <div class="wrap">
         <div class="cta">
           <div>
             <h2>Your course starts with one call.</h2>
             <p>We'll talk about what you know and map out the simplest way to turn it into a course.</p>
+            <!-- TODO: confirm call length and price; uses assets/portrait.jpg -->
+            <div class="host">
+              <span class="host__photo">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="9" r="4"/><path d="M4.5 20.5c1.4-3.6 4.2-5.5 7.5-5.5s6.1 1.9 7.5 5.5"/></svg>
+                <img src="../assets/portrait.jpg" alt="" width="96" height="96" loading="lazy" onerror="this.remove()">
+              </span>
+              <p><span class="host__name">With [Your Name], founder</span><span class="host__meta">[30 min] · [Free]</span></p>
+            </div>
           </div>
           <div class="cta__actions">
             <a class="btn btn--light" href="#book" data-calendly>Book a call</a>
