@@ -1,0 +1,442 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-26T04:29:16+00:00",
+  "title": "Design System: Behow",
+  "extensions": {
+    "colorMeta": {
+      "mustard": {
+        "role": "primary",
+        "displayName": "Projector Mustard",
+        "canonical": "oklch(79.3% 0.157 85.2)",
+        "tonalRamp": [
+          "#160700",
+          "#371e00",
+          "#5a3800",
+          "#815400",
+          "#a77700",
+          "#c69f46",
+          "#e4c788",
+          "#ffecc1"
+        ]
+      },
+      "mustard-bright": {
+        "role": "primary",
+        "displayName": "Lit Mustard",
+        "canonical": "oklch(83.0% 0.156 87.7)",
+        "tonalRamp": [
+          "#150800",
+          "#351f00",
+          "#583900",
+          "#7e5600",
+          "#a47900",
+          "#c3a046",
+          "#e2c889",
+          "#ffedc1"
+        ]
+      },
+      "mustard-deep": {
+        "role": "primary",
+        "displayName": "Burnt Mustard",
+        "canonical": "oklch(70.1% 0.142 83.2)",
+        "tonalRamp": [
+          "#160800",
+          "#361f00",
+          "#593800",
+          "#7f5400",
+          "#a67700",
+          "#c49f52",
+          "#e3c790",
+          "#ffecc6"
+        ]
+      },
+      "teal": {
+        "role": "secondary",
+        "displayName": "Classroom Teal",
+        "canonical": "oklch(52.8% 0.082 190.6)",
+        "tonalRamp": [
+          "#000f0e",
+          "#002b29",
+          "#0b4a47",
+          "#1d6b67",
+          "#438f8b",
+          "#77b1ad",
+          "#aad4d1",
+          "#d8f6f3"
+        ]
+      },
+      "navy": {
+        "role": "neutral",
+        "displayName": "Ink Navy",
+        "canonical": "oklch(28.9% 0.063 263.0)",
+        "tonalRamp": [
+          "#060b15",
+          "#1b2435",
+          "#334058",
+          "#4d5e7e",
+          "#6e80a3",
+          "#95a5c2",
+          "#bfcbe2",
+          "#e6efff"
+        ]
+      },
+      "navy-raised": {
+        "role": "neutral",
+        "displayName": "Raised Navy",
+        "canonical": "oklch(34.1% 0.073 263.4)",
+        "tonalRamp": [
+          "#060b17",
+          "#1a2438",
+          "#313f5c",
+          "#4a5d83",
+          "#6b80a9",
+          "#93a5c7",
+          "#bdcbe6",
+          "#e5efff"
+        ]
+      },
+      "navy-soft": {
+        "role": "neutral",
+        "displayName": "Soft Navy",
+        "canonical": "oklch(45.3% 0.045 265.4)",
+        "tonalRamp": [
+          "#080b13",
+          "#1e2430",
+          "#374051",
+          "#535e75",
+          "#74809a",
+          "#9ba5ba",
+          "#c3cbdb",
+          "#e9effb"
+        ]
+      },
+      "screen": {
+        "role": "neutral",
+        "displayName": "Projector Screen",
+        "canonical": "oklch(97.1% 0.005 117.9)",
+        "tonalRamp": [
+          "#0b0b0a",
+          "#242423",
+          "#3f403e",
+          "#5d5e5b",
+          "#80817d",
+          "#a4a5a2",
+          "#cacbc9",
+          "#eeefed"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper White",
+        "canonical": "oklch(100.0% 0.000 89.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#242424",
+          "#404040",
+          "#5d5d5d",
+          "#808080",
+          "#a4a4a4",
+          "#cacaca",
+          "#eeeeee"
+        ]
+      },
+      "tint": {
+        "role": "neutral",
+        "displayName": "Pale Teal Field",
+        "canonical": "oklch(93.7% 0.012 170.3)",
+        "tonalRamp": [
+          "#090c0b",
+          "#212523",
+          "#3b413f",
+          "#58605d",
+          "#7a827f",
+          "#9fa6a4",
+          "#c7ccca",
+          "#ecefee"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "rgba(26, 42, 74, .16)"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero title card headline only."
+      },
+      "display-end": {
+        "displayName": "Display End",
+        "purpose": "\"The End\" on the closing card only."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section headings."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Item headings: frames, service rows, FAQ questions."
+      },
+      "quote": {
+        "displayName": "Quote",
+        "purpose": "Client quotes in the display face."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Sublines under headings, soft navy."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Reading text, 34 to 40em measure."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Button labels."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "True small-caps labels: timings, result chips, client names."
+      },
+      "wordmark": {
+        "displayName": "Wordmark",
+        "purpose": "The lowercase behow wordmark rendered in small caps."
+      }
+    },
+    "shadows": [
+      {
+        "name": "screen",
+        "value": "0 18px 36px -18px rgba(26, 42, 74, .35)",
+        "purpose": "Hero frames and the about photo."
+      },
+      {
+        "name": "screen-mobile",
+        "value": "0 10px 20px -14px rgba(26, 42, 74, .45)",
+        "purpose": "Hero thumbnail frames below 720px."
+      },
+      {
+        "name": "feature-screen",
+        "value": "0 34px 60px -30px rgba(10, 30, 40, .7)",
+        "purpose": "Featured trailer on the teal field."
+      },
+      {
+        "name": "mustard-glow",
+        "value": "0 10px 20px -12px rgba(201, 149, 10, .9)",
+        "purpose": "Primary button at rest."
+      },
+      {
+        "name": "mustard-glow-hover",
+        "value": "0 16px 26px -14px rgba(201, 149, 10, .95)",
+        "purpose": "Primary button on hover."
+      },
+      {
+        "name": "navy-glow",
+        "value": "0 12px 24px -14px rgba(26, 42, 74, .8)",
+        "purpose": "Navy button on the mustard field."
+      },
+      {
+        "name": "play",
+        "value": "0 12px 24px -10px rgba(0,0,0,.5)",
+        "purpose": "Play button over video thumbnails."
+      },
+      {
+        "name": "end-card",
+        "value": "0 30px 50px -30px rgba(90, 60, 0, .55), inset 0 0 0 10px #f5f6f2, inset 0 0 0 12px rgba(26, 42, 74, .25)",
+        "purpose": "Closing title card: warm drop plus double inset mat."
+      },
+      {
+        "name": "focus-ring",
+        "value": "outline: 3px solid #1a2a4a; outline-offset: 3px",
+        "purpose": "Global :focus-visible; paper-white on video play buttons."
+      },
+      {
+        "name": "nav-glass",
+        "value": "background: rgba(245, 246, 242, .82); backdrop-filter: saturate(1.4) blur(14px)",
+        "purpose": "Sticky nav and (at .96 opacity, no blur) the mobile dock."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "State transitions: button lift, play scale, chevron, dock."
+      },
+      {
+        "name": "filmstrip-advance",
+        "value": "advance .84s steps(3, jump-none) .15s both",
+        "purpose": "Hero strip pulls in one full frame per step on load (720px and up)."
+      },
+      {
+        "name": "frame-in",
+        "value": "frame-in .36s steps(2, jump-none) both; stagger .12s",
+        "purpose": "Mobile hero frames step in from 40px."
+      },
+      {
+        "name": "button-lift",
+        "value": "transform .25s, translateY(-2px)",
+        "purpose": "Primary button hover."
+      },
+      {
+        "name": "thumb-zoom",
+        "value": "transform .6s, scale(1.03)",
+        "purpose": "Video thumbnail on hover."
+      },
+      {
+        "name": "dock-slide",
+        "value": "transform .35s, translateY(110%) to none",
+        "purpose": "Mobile booking dock reveal."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "transition: none; animation: none",
+        "purpose": "All motion removed under prefers-reduced-motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "stack",
+        "value": "720px"
+      },
+      {
+        "name": "nav-collapse",
+        "value": "860px"
+      },
+      {
+        "name": "two-column",
+        "value": "900px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Mustard pill for every Book a call.",
+      "html": "<a class=\"ds-btn\" href=\"#\">Book a call</a>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; gap: .55em; justify-content: center; min-height: 52px; padding: 0 30px; border-radius: 999px; border: 2px solid var(--mustard, #e9b21c); background: var(--mustard, #e9b21c); color: var(--navy, #1a2a4a); text-decoration: none; cursor: pointer; font: 700 1.1rem/1 var(--font-body, 'Alegreya Sans', sans-serif); letter-spacing: .01em; box-shadow: 0 10px 20px -12px rgba(201, 149, 10, .9); transition: transform .25s cubic-bezier(.16, 1, .3, 1), background-color .2s, box-shadow .25s cubic-bezier(.16, 1, .3, 1); } .ds-btn:hover { background: #f2c033; transform: translateY(-2px); box-shadow: 0 16px 26px -14px rgba(201, 149, 10, .95); } .ds-btn:active { transform: translateY(0); } .ds-btn:focus-visible { outline: 3px solid var(--navy, #1a2a4a); outline-offset: 3px; }"
+    },
+    {
+      "name": "Quiet Button",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Navy outline pill for the secondary action; fills navy on hover.",
+      "html": "<a class=\"ds-btn ds-btn--quiet\" href=\"#\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M8 5.5v13l10.5-6.5z\" fill=\"currentColor\"/></svg>Watch the trailer</a>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; gap: .55em; justify-content: center; min-height: 52px; padding: 0 30px; border-radius: 999px; border: 2px solid var(--mustard, #e9b21c); background: var(--mustard, #e9b21c); color: var(--navy, #1a2a4a); text-decoration: none; cursor: pointer; font: 700 1.1rem/1 var(--font-body, 'Alegreya Sans', sans-serif); letter-spacing: .01em; box-shadow: 0 10px 20px -12px rgba(201, 149, 10, .9); transition: transform .25s cubic-bezier(.16, 1, .3, 1), background-color .2s, box-shadow .25s cubic-bezier(.16, 1, .3, 1); } .ds-btn:hover { background: #f2c033; transform: translateY(-2px); box-shadow: 0 16px 26px -14px rgba(201, 149, 10, .95); } .ds-btn:active { transform: translateY(0); } .ds-btn:focus-visible { outline: 3px solid var(--navy, #1a2a4a); outline-offset: 3px; } .ds-btn--quiet { background: transparent; border-color: var(--navy, #1a2a4a); color: var(--navy, #1a2a4a); box-shadow: none; } .ds-btn--quiet:hover { background: var(--navy, #1a2a4a); color: var(--screen, #f5f6f2); box-shadow: none; }"
+    },
+    {
+      "name": "Navy Button",
+      "kind": "button",
+      "refersTo": "button-navy",
+      "description": "Large navy pill, used only on the mustard field.",
+      "html": "<div style=\"background:#e9b21c;padding:24px\"><a class=\"ds-btn ds-btn--navy\" href=\"#\">Book a call</a></div>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; gap: .55em; justify-content: center; min-height: 52px; padding: 0 30px; border-radius: 999px; border: 2px solid var(--mustard, #e9b21c); background: var(--mustard, #e9b21c); color: var(--navy, #1a2a4a); text-decoration: none; cursor: pointer; font: 700 1.1rem/1 var(--font-body, 'Alegreya Sans', sans-serif); letter-spacing: .01em; box-shadow: 0 10px 20px -12px rgba(201, 149, 10, .9); transition: transform .25s cubic-bezier(.16, 1, .3, 1), background-color .2s, box-shadow .25s cubic-bezier(.16, 1, .3, 1); } .ds-btn:hover { background: #f2c033; transform: translateY(-2px); box-shadow: 0 16px 26px -14px rgba(201, 149, 10, .95); } .ds-btn:active { transform: translateY(0); } .ds-btn:focus-visible { outline: 3px solid var(--navy, #1a2a4a); outline-offset: 3px; } .ds-btn--navy { background: var(--navy, #1a2a4a); border-color: var(--navy, #1a2a4a); color: var(--screen, #f5f6f2); min-height: 62px; padding: 0 44px; font-size: 1.25rem; box-shadow: 0 12px 24px -14px rgba(26, 42, 74, .8); } .ds-btn--navy:hover { background: #24375e; }"
+    },
+    {
+      "name": "Result Chip",
+      "kind": "chip",
+      "refersTo": "result-chip",
+      "description": "Mustard small-caps pill above each client quote.",
+      "html": "<span class=\"ds-result\">Result</span>",
+      "css": ".ds-result { display: inline-block; background: var(--mustard, #e9b21c); color: var(--navy, #1a2a4a); font: 700 .95rem/1 var(--font-sc, 'Alegreya Sans SC', sans-serif); letter-spacing: .04em; padding: 8px 14px; border-radius: 999px; }"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "nav",
+      "description": "Sticky translucent bar: small-caps wordmark, soft-navy links, small mustard button.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-wordmark\" href=\"#\">behow</a><div class=\"ds-nav__menu\"><a href=\"#\">How it works</a><a href=\"#\">Work</a><a href=\"#\">Questions</a><a class=\"ds-nav__btn\" href=\"#\">Book a call</a></div></nav>",
+      "css": ".ds-nav { display: flex; align-items: center; justify-content: space-between; height: 76px; padding: 0 24px; background: rgba(245, 246, 242, .82); backdrop-filter: saturate(1.4) blur(14px); border-bottom: 1px solid rgba(26, 42, 74, .16); } .ds-wordmark { font: 800 2rem/1 var(--font-sc, 'Alegreya Sans SC', sans-serif); letter-spacing: .015em; color: var(--navy, #1a2a4a); text-decoration: none; padding-bottom: 4px; } .ds-nav__menu { display: flex; align-items: center; gap: 32px; } .ds-nav__menu a:not(.ds-nav__btn) { font-family: var(--font-body, 'Alegreya Sans', 'Gill Sans', sans-serif); font-weight: 500; color: var(--navy-soft, #4a5670); text-decoration: none; transition: color .2s; } .ds-nav__menu a:not(.ds-nav__btn):hover { color: var(--navy, #1a2a4a); text-decoration: underline; text-underline-offset: .2em; } .ds-nav__btn { display: inline-flex; align-items: center; min-height: 44px; padding: 0 22px; border-radius: 999px; background: var(--mustard, #e9b21c); color: var(--navy, #1a2a4a); font: 700 1rem/1 var(--font-body, 'Alegreya Sans', sans-serif); text-decoration: none; } .ds-nav__btn:hover { background: #f2c033; } .ds-nav a:focus-visible { outline: 3px solid var(--navy, #1a2a4a); outline-offset: 3px; border-radius: 6px; }"
+    },
+    {
+      "name": "Hero Frame",
+      "kind": "card",
+      "refersTo": "frame-screen",
+      "description": "Numbered 16:9 colour-field screen with a one-stroke drawing, title, ask and small-caps timing.",
+      "html": "<div class=\"ds-frame\"><div class=\"ds-frame__screen\"><span class=\"ds-frame__num\">1</span><svg viewBox=\"0 0 160 90\" class=\"ds-frame__art\" aria-hidden=\"true\"><circle cx=\"60\" cy=\"40\" r=\"14\"/><path d=\"M38 76c4-14 14-20 22-20s18 6 22 20M96 30h34M96 44h26M96 58h30\"/></svg></div><h3 class=\"ds-frame__title\">Brief</h3><p class=\"ds-frame__ask\">You talk us through what you know.</p><p class=\"ds-frame__when\">Week 1</p></div>",
+      "css": ".ds-frame { max-width: 340px; color: var(--navy, #1a2a4a); } .ds-frame__screen { position: relative; aspect-ratio: 16 / 9; border-radius: 16px; overflow: hidden; background: var(--teal, #1f7a76); box-shadow: 0 18px 36px -18px rgba(26, 42, 74, .35); display: grid; place-items: center; } .ds-frame__art { width: 72%; fill: none; stroke: #fff; stroke-width: 3.5; stroke-linecap: round; stroke-linejoin: round; } .ds-frame__num { position: absolute; left: 14px; top: 12px; font: 800 1.5rem/1 var(--font-display, 'Bricolage Grotesque', sans-serif); color: #fff; } .ds-frame__title { font: 800 1.75rem/1 var(--font-display, 'Bricolage Grotesque', sans-serif); font-variation-settings: 'wdth' 85; letter-spacing: -.015em; margin: 1.4rem 0 0; } .ds-frame__ask { font-family: var(--font-body, 'Alegreya Sans', 'Gill Sans', sans-serif); color: var(--navy-soft, #4a5670); margin: .3rem 0 0; font-size: 1.05rem; line-height: 1.45; } .ds-frame__when { margin: .45rem 0 0; font: 700 .95rem/1.2 var(--font-sc, 'Alegreya Sans SC', sans-serif); letter-spacing: .05em; }"
+    },
+    {
+      "name": "Video Screen",
+      "kind": "custom",
+      "refersTo": "video-play",
+      "description": "Rounded 16:9 navy screen with numbered corner and mustard play button.",
+      "html": "<div class=\"ds-video\"><span class=\"ds-video__corner\">01</span><button class=\"ds-video__play\" aria-label=\"Play video\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M8 5.5v13l10.5-6.5z\" fill=\"currentColor\"/></svg></button></div>",
+      "css": ".ds-video { position: relative; aspect-ratio: 16 / 9; width: 100%; max-width: 480px; border-radius: 16px; overflow: hidden; background: var(--navy, #1a2a4a); } .ds-video::before { content: ''; position: absolute; inset: 0; background: radial-gradient(120% 90% at 30% 20%, rgba(255,255,255,.14), transparent 60%); } .ds-video__corner { position: absolute; left: 16px; top: 12px; font: 800 1.2rem/1 var(--font-display, 'Bricolage Grotesque', sans-serif); color: #fff; z-index: 1; } .ds-video__play { position: absolute; inset: 0; margin: auto; width: 84px; height: 84px; border-radius: 50%; border: 0; background: var(--mustard, #e9b21c); color: var(--navy, #1a2a4a); cursor: pointer; display: grid; place-items: center; box-shadow: 0 12px 24px -10px rgba(0,0,0,.5); transition: transform .3s cubic-bezier(.16, 1, .3, 1); } .ds-video__play svg { width: 36px; height: 36px; margin-left: 4px; } .ds-video:hover .ds-video__play { transform: scale(1.08); } .ds-video__play:focus-visible { outline: 3px solid #fff; outline-offset: 4px; }"
+    },
+    {
+      "name": "End Card",
+      "kind": "card",
+      "refersTo": "end-card",
+      "description": "Framed 'The End' title card on the mustard field.",
+      "html": "<div class=\"ds-end\"><div class=\"ds-end__card\"><p class=\"ds-end__title\">The End</p><p class=\"ds-end__sub\">Book a call to start yours.</p></div></div>",
+      "css": ".ds-end { background: var(--mustard, #e9b21c); padding: 40px 24px; } .ds-end__card { aspect-ratio: 16 / 9; max-width: 520px; margin: auto; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; background: var(--screen, #f5f6f2); color: var(--navy, #1a2a4a); border: 3px solid var(--navy, #1a2a4a); border-radius: 22px; padding: 32px; box-shadow: 0 30px 50px -30px rgba(90, 60, 0, .55), inset 0 0 0 10px #f5f6f2, inset 0 0 0 12px rgba(26, 42, 74, .25); } .ds-end__title { font: 800 4rem/.9 var(--font-display, 'Bricolage Grotesque', sans-serif); letter-spacing: -.04em; font-variation-settings: 'wdth' 85; margin: 0 0 .22em; } .ds-end__sub { font-family: var(--font-body, 'Alegreya Sans', 'Gill Sans', sans-serif); color: var(--navy-soft, #4a5670); margin: 0; }"
+    },
+    {
+      "name": "FAQ Row",
+      "kind": "custom",
+      "description": "Hairline-ruled disclosure with a drawn chevron; no card chrome.",
+      "html": "<div class=\"ds-faq\"><details><summary>How much of my time does it take?</summary><p>A few short sessions; we handle the rest.</p></details></div>",
+      "css": ".ds-faq { border-top: 2px solid var(--navy, #1a2a4a); color: var(--navy, #1a2a4a); max-width: 560px; } .ds-faq details { border-bottom: 1px solid rgba(26, 42, 74, .16); } .ds-faq summary { list-style: none; cursor: pointer; padding: 22px 48px 22px 0; position: relative; font: 700 1.3rem/1.3 var(--font-display, 'Bricolage Grotesque', sans-serif); letter-spacing: -.01em; } .ds-faq summary::-webkit-details-marker { display: none; } .ds-faq summary::after { content: ''; position: absolute; right: 6px; top: 50%; width: 16px; height: 16px; margin-top: -10px; border-right: 3px solid currentColor; border-bottom: 3px solid currentColor; transform: rotate(45deg); transition: transform .3s cubic-bezier(.16, 1, .3, 1); } .ds-faq details[open] summary::after { transform: rotate(-135deg); margin-top: -2px; } .ds-faq summary:hover { color: var(--teal, #1f7a76); } .ds-faq summary:focus-visible { outline: 3px solid var(--navy, #1a2a4a); outline-offset: 3px; } .ds-faq p { font-family: var(--font-body, 'Alegreya Sans', 'Gill Sans', sans-serif); color: var(--navy-soft, #4a5670); padding-bottom: 22px; margin: 0; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Teaching Film",
+    "overview": "Behow is presented as a short educational film. The page opens on a title card, moves through numbered frames, screens the work on a coloured field, and closes on \"The End\". Every surface sits on a projector-screen white ground with navy ink, and the three saturated colours (mustard, teal, navy) never appear as decoration: each one owns a whole region, a whole frame, or the single action.\n\nDensity is calm and generous. Sections breathe on large vertical padding, type sits centred on title cards and left-aligned in reading sections, and long copy is held to readable measures (32 to 40em). Craft lives in a few authored devices: the condensed, heavy grotesque at title-card scale, true small-caps labels, rounded 16:9 screens with numbered corners, faint sprocket perforations above and below the hero frames, and a stepped filmstrip advance on load.\n\nThe world refuses a dark theme, neon, and the cream-and-serif look it replaced.",
+    "keyCharacteristics": [
+      "Projector-screen white ground (`screen`) with navy ink; pale teal (`tint`) for alternating reading sections.",
+      "Mustard, teal and navy used as flat fields that own whole regions or frames.",
+      "Mustard is the single action colour.",
+      "Bricolage Grotesque at weight 800, width 85, for every heading; Alegreya Sans for reading; Alegreya Sans SC for labels and the wordmark.",
+      "Rounded 16:9 screens with numbered corners as the recurring container.",
+      "Stepped, frame-by-frame motion, all of it removed under reduced motion."
+    ],
+    "rules": [
+      {
+        "name": "The Colour Field Rule",
+        "body": "Mustard, teal and navy appear as flat fields that own a whole region or a whole frame. They are not used as tinted backgrounds for small cards, gradients, or sprinkled accents.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Action Rule",
+        "body": "Mustard means \"book a call\". Every primary action is mustard with navy text; on the mustard field the button flips to navy with screen-white text. No other element competes in mustard except the play button and result chips, which are the proof the action rests on.",
+        "section": "colors"
+      },
+      {
+        "name": "The Title Card Rule",
+        "body": "Headings are always Bricolage Grotesque at weight 800 with `\"wdth\" 85` and negative tracking (-0.015em to -0.04em). Reading text never uses the grotesque.",
+        "section": "typography"
+      },
+      {
+        "name": "The True Small Caps Rule",
+        "body": "Labels use the Alegreya Sans SC face, not uppercase text with wide tracking. There is no `text-transform: uppercase` in the system.",
+        "section": "typography"
+      },
+      {
+        "name": "The Projected Light Rule",
+        "body": "Shadows are soft, negative-spread and tinted toward the surface below. No hard offset shadows and no black shadows.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Numbered Screen Rule",
+        "body": "A screen is a rounded 16:9 rectangle with a number in its top-left corner, set in the display face at weight 800 (1, 2, 3 on hero frames; 00 to 03 on videos).",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "**Do** keep the page on the projector-screen ground with navy ink, and give mustard, teal and navy whole regions or whole frames.",
+      "**Do** make every Book a call mustard with navy text, flipping to the navy button only on a mustard field.",
+      "**Do** set every heading in Bricolage Grotesque 800 at `\"wdth\" 85` with negative tracking, and every label in Alegreya Sans SC.",
+      "**Do** present video and process content as rounded 16:9 screens with numbered corners.",
+      "**Do** use stepped timing (`steps()`) for signature motion and the expo ease-out `cubic-bezier(.16, 1, .3, 1)` for state changes, and remove all of it under `prefers-reduced-motion`.",
+      "**Do** separate list content with a 2px navy top rule and 1px hairlines instead of cards."
+    ],
+    "donts": [
+      "**Don't** introduce a dark theme, neon colour, or a cream ground with a serif face.",
+      "**Don't** use uppercase-tracked eyebrows or kickers above headings; small-caps labels sit below or beside the content they describe.",
+      "**Don't** use hard offset shadows or black drop shadows.",
+      "**Don't** use the saturated colours as gradients or as small tinted card backgrounds.",
+      "**Don't** set body copy in the grotesque or headings in the humanist face.",
+      "**Don't** use glyph or icon-font icons; icons are inline SVG."
+    ]
+  }
+}

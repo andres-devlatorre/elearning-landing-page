@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-26T04:20:29.289Z",
+        "reason": "model triage: static file scan cannot see CSS padding; every flagged section/list has padding-block 26-140px in styles.css, and the live-page scans at 1440 and 390 raised no cramped-padding"
+      }
+    ]
+  }
+}

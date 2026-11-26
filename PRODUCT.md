@@ -8,7 +8,12 @@ web
 
 ## Users
 
-Primary: subject-matter experts (SMEs) who hold valuable knowledge and need it turned into a finished course, but are not instructional designers or video producers. They land on the page deciding whether this studio can take their expertise and produce a course without the process becoming a burden.
+Primary: subject-matter experts (SMEs) who hold valuable knowledge and need it turned into a finished course, but are not instructional designers or video producers. They arrive in one of two situations:
+
+- **First-timers:** they have never recorded a course and want someone to do it for them because they want to share their knowledge. They need to feel it is possible and that they will be guided.
+- **Comparers:** they are comparing a few studios and worried about how much time and effort a course will take.
+
+Either way, they are deciding whether this studio can take their expertise and produce a course without the process becoming a burden.
 
 Secondary: corporate buyers (L&D, HR, training managers) commissioning courses for their teams.
 
@@ -16,7 +21,7 @@ The page speaks to the SME first; the corporate buyer should still feel served, 
 
 ## Product Purpose
 
-An e-learning production studio that produces courses, training videos and interactive modules. The landing page exists to get visitors to book a discovery call (Calendly). Success is a booked call from a qualified SME or buyer.
+Behow is an e-learning production studio that produces courses, training videos and interactive modules. The landing page exists to get visitors to book a discovery call (Calendly). Success is a booked call from a qualified SME or buyer.
 
 ## Positioning
 
@@ -30,9 +35,11 @@ Visitors typically compare a few studios before booking a call. Proof is deliver
 
 Services offered: custom course production; training video and motion; interactive and SCORM modules for any LMS; localization and ongoing updates. Process: brief and strategy, script and produce, launch and measure.
 
-Page is static (`index.html`, `styles.css`, `script.js`), no build step, hosted on a static host (Netlify Drop, GitHub Pages or Vercel). Fonts from Google Fonts; Calendly widget external.
+Page is static (`index.html`, `styles.css`, `script.js`), no build step, hosted on a static host (Netlify Drop, GitHub Pages or Vercel). Fonts self-hosted in assets/fonts; Calendly widget external.
 
-Undecided / still placeholder: studio name, founder name and bio, contact details, social links, Calendly URL, YouTube IDs, client names, and all numeric claims.
+Studio name: **Behow**.
+
+Undecided / still placeholder: founder name and bio, contact details, social links, Calendly URL, YouTube IDs, client names, and all numeric claims.
 
 ## Evidence on Hand
 

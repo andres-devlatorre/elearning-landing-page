@@ -3,211 +3,251 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- TODO: replace business name, description and OG image -->
-  <title>Your Studio Name | E-Learning Production</title>
-  <meta name="description" content="We produce engaging e-learning courses, training videos and interactive modules that people actually finish.">
-  <meta property="og:title" content="Your Studio Name | E-Learning Production">
-  <meta property="og:description" content="Courses people actually finish.">
+  <title>Behow | Courses people actually finish</title>
+  <meta name="description" content="Behow turns what you know into a finished online course. You bring the knowledge; we script, film and build it, quickly and simply.">
+  <meta property="og:title" content="Behow | Courses people actually finish">
+  <meta property="og:description" content="You bring the knowledge. We make the course.">
   <meta property="og:type" content="website">
+  <!-- TODO: add assets/og-image.jpg (1200x630) and use its full URL once the site is hosted -->
   <meta property="og:image" content="assets/og-image.jpg">
-  <meta name="theme-color" content="#f9f9f6">
+  <meta name="theme-color" content="#f5f6f2">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
+  <link rel="preload" href="assets/fonts/bricolage-grotesque-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="styles.css">
-  <!-- Calendly popup widget -->
   <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script>document.documentElement.classList.add("js");</script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
 
+  <!-- Shared icon drawings -->
+  <svg width="0" height="0" class="sr-defs" aria-hidden="true" focusable="false">
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor"/></symbol>
+  </svg>
+
   <header class="nav" id="top">
-    <div class="container nav__inner">
-      <a class="brand" href="#top" aria-label="Your Studio Name, home">
-        <span class="brand__mark" aria-hidden="true">▶</span> Your Studio Name
-      </a>
-      <button class="nav__toggle" aria-expanded="false" aria-controls="menu" aria-label="Toggle menu">
+    <div class="wrap nav__inner">
+      <a class="wordmark" href="#top" aria-label="Behow, home">behow</a>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="menu" aria-label="Open menu">
         <span></span><span></span><span></span>
       </button>
       <nav id="menu" class="nav__menu" aria-label="Main">
+        <a href="#how">How it works</a>
+        <a href="#work">Our work</a>
+        <a href="#questions">Questions</a>
         <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#trailer">Trailer</a>
-        <a href="#success">Success</a>
-        <a class="btn btn--small" href="#contact" data-calendly>Book a call</a>
+        <a class="btn btn--small" href="#book" data-calendly>Book a call</a>
       </nav>
     </div>
   </header>
 
   <main id="main">
-    <!-- HERO -->
-    <section class="hero">
-      <div class="container">
-        <p class="eyebrow reveal">E-learning production studio</p>
-        <h1 class="reveal">Courses people
-          <span class="underline">actually finish.
-            <svg viewBox="0 0 300 20" preserveAspectRatio="none" aria-hidden="true"><path pathLength="1" d="M3 13 C 50 4, 95 17, 150 9 S 255 4, 297 11"/></svg>
-          </span>
-        </h1>
-        <p class="lead reveal">We turn complex knowledge into beautiful, interactive training that your team enjoys and remembers.</p>
-        <div class="hero__cta reveal">
-          <a class="btn" href="#trailer">▶ Watch the trailer</a>
-          <a class="btn btn--ghost" href="#contact" data-calendly>Book a call</a>
+    <!-- TITLE CARD -->
+    <section class="title-card">
+      <div class="wrap">
+        <h1>Courses people actually&nbsp;finish.</h1>
+        <p class="title-card__sub">Never made a course? You bring what you know. We script, film and build it for you, quickly and simply.</p>
+        <div class="title-card__cta">
+          <a class="btn" href="#book" data-calendly>Book a call</a>
+          <a class="btn btn--quiet" href="#work">
+            <svg class="btn__icon" aria-hidden="true"><use href="#i-play"/></svg>Watch the trailer
+          </a>
         </div>
+      </div>
+
+      <!-- TODO: confirm the timings in each frame -->
+      <ol class="strip" id="how" aria-label="How it works in three steps">
+        <li class="frame frame--teal">
+          <div class="frame__screen">
+            <span class="frame__num" aria-hidden="true">1</span>
+            <!-- The expert talks it through with a producer -->
+            <svg viewBox="0 0 160 90" aria-hidden="true" class="frame__art">
+              <circle cx="44" cy="30" r="9"/>
+              <path d="M28 66c0-14 7-22 16-22s16 8 16 22"/>
+              <circle cx="116" cy="30" r="9"/>
+              <path d="M100 66c0-14 7-22 16-22s16 8 16 22"/>
+              <path d="M20 68h120"/>
+              <path d="M64 16h32a6 6 0 0 1 6 6v10a6 6 0 0 1-6 6H84l-8 7v-7H64a6 6 0 0 1-6-6V22a6 6 0 0 1 6-6z"/>
+              <path d="M66 24h22M66 31h14"/>
+            </svg>
+          </div>
+          <h2 class="frame__title">Brief</h2>
+          <p class="frame__ask">You talk us through what you know. No slides or script needed.</p>
+          <p class="frame__when">[Week 1]</p>
+        </li>
+        <li class="frame frame--navy">
+          <div class="frame__screen">
+            <span class="frame__num" aria-hidden="true">2</span>
+            <!-- A directed take: camera on the left, the expert in shot -->
+            <svg viewBox="0 0 160 90" aria-hidden="true" class="frame__art">
+              <rect x="22" y="30" width="34" height="22" rx="4"/>
+              <path d="M56 36l12-6v22l-12-6"/>
+              <path d="M39 52v10M39 62l-10 16M39 62l10 16"/>
+              <path d="M72 41l26-6M72 41l26 6" stroke-dasharray="2 6"/>
+              <circle cx="116" cy="26" r="9"/>
+              <path d="M100 78V56c0-11 7-18 16-18s16 7 16 18v22"/>
+              <path d="M108 50l8 8 8-8"/>
+            </svg>
+          </div>
+          <h2 class="frame__title">Produce</h2>
+          <p class="frame__ask">We script, film and build every lesson. You review drafts.</p>
+          <p class="frame__when">[Weeks 2 to 4]</p>
+        </li>
+        <li class="frame frame--mustard">
+          <div class="frame__screen">
+            <span class="frame__num" aria-hidden="true">3</span>
+            <!-- A learner reaches the end of the course -->
+            <svg viewBox="0 0 160 90" aria-hidden="true" class="frame__art">
+              <circle cx="46" cy="30" r="9"/>
+              <path d="M30 76V58c0-10 7-16 16-16 6 0 11 3 14 8l10 6"/>
+              <rect x="76" y="26" width="58" height="36" rx="4"/>
+              <path d="M70 70h70"/>
+              <path d="M94 44l8 8 16-16"/>
+            </svg>
+          </div>
+          <h2 class="frame__title">Launch</h2>
+          <p class="frame__ask">Your course goes live and learners finish it.</p>
+          <p class="frame__when">[Week 5]</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- NOW SHOWING: TRAILER -->
+    <section class="screening" id="work">
+      <div class="wrap wrap--mid">
+        <h2>See our work</h2>
+        <!-- TODO: replace data-yt with your trailer's YouTube video ID -->
+        <div class="video video--feature" data-yt="YOUTUBE_ID_TRAILER" data-frame="00" data-title="Behow trailer"></div>
       </div>
     </section>
 
-    <!-- TRUST STRIP -->
-    <section class="trust" aria-label="Clients">
-      <div class="container trust__inner">
-        <span class="trust__label">Trusted by teams at</span>
-        <!-- TODO: replace with client names or logos -->
-        <ul class="trust__logos">
-          <li>Client One</li><li>Client Two</li><li>Client Three</li><li>Client Four</li><li>Client Five</li>
+    <!-- WHAT WE MAKE -->
+    <section class="section section--tint" id="services">
+      <div class="wrap">
+        <div class="section__head">
+          <h2>What we make</h2>
+          <p class="lead">From a single lesson to a full academy, all under one roof.</p>
+        </div>
+        <ul class="reels">
+          <li class="reel">
+            <h3>Complete online courses</h3>
+            <p>Planning, scripts and the full build, shaped around what your learners need to be able to do.</p>
+          </li>
+          <li class="reel">
+            <h3>Video and animation</h3>
+            <p>Studio filming, animation and explainers that make ideas stick.</p>
+          </li>
+          <li class="reel">
+            <h3>Interactive lessons</h3>
+            <p>Scenarios, quizzes and simulations that work on any course platform and track each learner's progress. (In the trade: SCORM modules for your LMS.)</p>
+          </li>
+          <li class="reel">
+            <h3>Translation and updates</h3>
+            <p>Subtitles, voice-over and translations, plus refreshes to keep your course current.</p>
+          </li>
         </ul>
       </div>
     </section>
 
-    <!-- ABOUT -->
-    <section class="section" id="about">
-      <div class="container about">
-        <div class="about__photo reveal">
-          <!-- TODO: replace with your photo (assets/portrait.jpg) -->
-          <img src="assets/portrait.jpg" alt="Portrait of the founder" width="480" height="560" loading="lazy" onerror="this.style.display='none'">
-          <span class="about__photo-fallback" aria-hidden="true">Your photo</span>
-        </div>
-        <div class="about__text reveal">
-          <p class="eyebrow">Who I am</p>
-          <h2>Hi, I'm [Your Name], founder of Your Studio Name.</h2>
-          <!-- TODO: replace with your story -->
-          <p>I started this studio after years in instructional design and video production, tired of training that people clicked through and forgot. Today my team and I craft courses that teach, hold attention and prove their value.</p>
-          <p>From a single compliance module to a full academy, we handle strategy, scripting, filming, animation and delivery under one roof.</p>
-          <ul class="stats">
-            <li><strong>10+</strong><span>years experience</span></li>
-            <li><strong>150+</strong><span>courses produced</span></li>
-            <li><strong>500k</strong><span>learners reached</span></li>
-            <li><strong>60+</strong><span>happy clients</span></li>
+    <!-- CLIENT SCREENINGS -->
+    <section class="section" id="results">
+      <div class="wrap">
+        <div class="section__head">
+          <h2>Hear it from our clients</h2>
+          <!-- TODO: replace with real client names or logos -->
+          <ul class="clients__list" aria-label="Clients">
+            <li>[Client name]</li><li>[Client name]</li><li>[Client name]</li><li>[Client name]</li><li>[Client name]</li>
           </ul>
         </div>
-      </div>
-    </section>
-
-    <!-- SERVICES -->
-    <section class="section section--sage" id="services">
-      <div class="container">
-        <div class="section__head reveal">
-          <p class="eyebrow">What I do</p>
-          <h2>Everything from first idea to final lesson</h2>
-        </div>
-        <div class="cards">
-          <article class="card reveal">
-            <span class="card__num" aria-hidden="true">01</span>
-            <h3>Custom course production</h3>
-            <p>Needs analysis, storyboards, scripts and full course build, aligned to your learning goals.</p>
-          </article>
-          <article class="card reveal">
-            <span class="card__num" aria-hidden="true">02</span>
-            <h3>Training video &amp; motion</h3>
-            <p>Studio-quality filming, animation and explainer videos that make ideas stick.</p>
-          </article>
-          <article class="card reveal">
-            <span class="card__num" aria-hidden="true">03</span>
-            <h3>Interactive &amp; SCORM modules</h3>
-            <p>Scenarios, quizzes and simulations packaged for any LMS, with tracking built in.</p>
-          </article>
-          <article class="card reveal">
-            <span class="card__num" aria-hidden="true">04</span>
-            <h3>Localization &amp; updates</h3>
-            <p>Subtitles, voice-over and translations, plus ongoing refreshes to keep content current.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- HOW IT WORKS -->
-    <section class="section section--yellow" id="process">
-      <div class="container">
-        <div class="section__head reveal">
-          <p class="eyebrow">How it works</p>
-          <h2>Three steps. No chaos.</h2>
-        </div>
-        <ol class="steps">
-          <li class="step reveal">
-            <h3>Brief &amp; strategy</h3>
-            <p>We learn your audience, goals and content, then agree on a clear plan and timeline.</p>
-          </li>
-          <li class="step reveal">
-            <h3>Script &amp; produce</h3>
-            <p>We write, film, animate and build, sharing drafts so you stay in control.</p>
-          </li>
-          <li class="step reveal">
-            <h3>Launch &amp; measure</h3>
-            <p>We deliver to your LMS and review completion and results so the next course is even better.</p>
-          </li>
-        </ol>
-      </div>
-    </section>
-
-    <!-- TRAILER -->
-    <section class="section section--dark" id="trailer">
-      <div class="container container--narrow">
-        <div class="section__head section__head--center reveal">
-          <p class="eyebrow">Showreel</p>
-          <h2>See our work in 90 seconds</h2>
-        </div>
-        <!-- TODO: replace data-yt with your YouTube video ID -->
-        <div class="video reveal" data-yt="YOUTUBE_ID_TRAILER" data-title="Studio trailer"></div>
-      </div>
-    </section>
-
-    <!-- SUCCESS -->
-    <section class="section section--white" id="success">
-      <div class="container">
-        <div class="section__head reveal">
-          <p class="eyebrow">Customer success</p>
-          <h2>Results our clients talk about</h2>
-        </div>
-        <div class="testimonials">
-          <!-- TODO: replace IDs, names and results for each client -->
-          <figure class="testimonial reveal">
-            <div class="video" data-yt="YOUTUBE_ID_CLIENT_1" data-title="Client 1 testimonial"></div>
+        <!-- TODO: replace YouTube IDs, results, quotes and names with real ones -->
+        <div class="screenings">
+          <figure class="screening-card">
+            <div class="video" data-yt="YOUTUBE_ID_CLIENT_1" data-frame="01" data-title="Client 1 story"></div>
             <figcaption>
-              <span class="metric">92% completion rate</span>
-              <blockquote>“Our onboarding went from a chore to something new hires rave about.”</blockquote>
-              <cite>Client Name, Role · Company</cite>
+              <span class="result">[Real result]</span>
+              <blockquote>[A short quote from this client]</blockquote>
+              <cite>[Client name, role · company]</cite>
             </figcaption>
           </figure>
-          <figure class="testimonial reveal">
-            <div class="video" data-yt="YOUTUBE_ID_CLIENT_2" data-title="Client 2 testimonial"></div>
+          <figure class="screening-card">
+            <div class="video" data-yt="YOUTUBE_ID_CLIENT_2" data-frame="02" data-title="Client 2 story"></div>
             <figcaption>
-              <span class="metric">40% faster ramp-up</span>
-              <blockquote>“They understood our subject matter and made it genuinely engaging.”</blockquote>
-              <cite>Client Name, Role · Company</cite>
+              <span class="result">[Real result]</span>
+              <blockquote>[A short quote from this client]</blockquote>
+              <cite>[Client name, role · company]</cite>
             </figcaption>
           </figure>
-          <figure class="testimonial reveal">
-            <div class="video" data-yt="YOUTUBE_ID_CLIENT_3" data-title="Client 3 testimonial"></div>
+          <figure class="screening-card">
+            <div class="video" data-yt="YOUTUBE_ID_CLIENT_3" data-frame="03" data-title="Client 3 story"></div>
             <figcaption>
-              <span class="metric">12k learners in 3 months</span>
-              <blockquote>“On time, on budget, and the feedback from learners has been fantastic.”</blockquote>
-              <cite>Client Name, Role · Company</cite>
+              <span class="result">[Real result]</span>
+              <blockquote>[A short quote from this client]</blockquote>
+              <cite>[Client name, role · company]</cite>
             </figcaption>
           </figure>
         </div>
       </div>
     </section>
 
-    <!-- CONTACT -->
-    <section class="section section--yellow contact" id="contact">
-      <div class="container container--narrow reveal">
-        <p class="eyebrow">Contact</p>
-        <h2>Ready to build your next course?</h2>
-        <p class="lead">Book a free 30-minute discovery call and we'll map out the right approach for your team.</p>
-        <!-- TODO: set your Calendly URL in script.js (CALENDLY_URL) -->
-        <a class="btn btn--large" href="#contact" data-calendly>Book a discovery call</a>
-        <ul class="contact__links">
-          <li><a href="mailto:hello@yourstudio.com">hello@yourstudio.com</a></li>
+    <!-- QUESTIONS -->
+    <section class="section section--rule" id="questions">
+      <div class="wrap faq">
+        <h2>First course? Good questions to ask</h2>
+        <div class="faq__list">
+          <details>
+            <summary>I've never recorded anything. Can I still do this?</summary>
+            <p>Yes. You don't need any experience. We plan it with you, write the script and direct every take, so you only need to know your subject.</p>
+          </details>
+          <details>
+            <summary>How much of my time will it take?</summary>
+            <!-- TODO: confirm this estimate -->
+            <p>Usually one planning call, a recording session if you choose to appear on camera, and time to review drafts. We handle everything in between.</p>
+          </details>
+          <details>
+            <summary>Do I need slides or a script?</summary>
+            <p>No. We can start from notes, slides, a book or simply a conversation. Writing the script is part of our job.</p>
+          </details>
+          <details>
+            <summary>What if I don't want to be on camera?</summary>
+            <p>We can build the course with animation and voice-over instead, so it works without you on screen.</p>
+          </details>
+          <details>
+            <summary>Can the course be in more than one language?</summary>
+            <p>Yes. We add subtitles, voice-over and full translations.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section section--tint" id="about">
+      <div class="wrap about">
+        <div class="about__photo">
+          <!-- TODO: add your photo as assets/portrait.jpg -->
+          <img src="assets/portrait.jpg" alt="Portrait of the founder of Behow" width="480" height="560" loading="lazy" onerror="this.remove()">
+          <span class="about__fallback" aria-hidden="true">Founder photo</span>
+        </div>
+        <div class="about__text">
+          <!-- TODO: replace with your name and story -->
+          <h2>Hi, I'm [Your Name], founder of <span class="sc">behow</span>.</h2>
+          <p>[Your story: how you started Behow, your background, and why you care about courses people finish.]</p>
+          <p>We handle planning, scripts, filming, animation and delivery under one roof, so you only deal with one team.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- THE END -->
+    <section class="the-end" id="book">
+      <div class="wrap wrap--mid">
+        <div class="end-card">
+          <p class="end-card__title" aria-hidden="true">The End</p>
+          <h2>Your course starts with one call.</h2>
+          <p class="end-card__sub">We'll talk about what you know and map out the simplest way to turn it into a course.</p>
+          <a class="btn btn--large btn--navy" href="#book" data-calendly>Book a call</a>
+        </div>
+        <!-- TODO: replace contact details -->
+        <ul class="the-end__links">
+          <li><a href="mailto:hello@behow.com">hello@behow.com</a></li>
           <li><a href="tel:+10000000000">+1 (000) 000-0000</a></li>
           <li><a href="https://www.linkedin.com/" rel="noopener" target="_blank">LinkedIn</a></li>
           <li><a href="https://www.youtube.com/" rel="noopener" target="_blank">YouTube</a></li>
@@ -217,11 +257,15 @@
   </main>
 
   <footer class="footer">
-    <div class="container footer__inner">
-      <span>© <span id="year"></span> Your Studio Name. All rights reserved.</span>
-      <a href="#top">Back to top ↑</a>
+    <div class="wrap footer__inner">
+      <span><span class="sc">behow</span> © <span id="year">2026</span></span>
+      <a href="#top">Back to top</a>
     </div>
   </footer>
+
+  <div class="dock">
+    <a class="btn btn--block" href="#book" data-calendly>Book a call</a>
+  </div>
 
   <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
   <script src="script.js"></script>

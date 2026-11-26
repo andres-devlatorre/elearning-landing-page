@@ -1,15 +1,21 @@
-# Landing page
+# Behow landing page
 
-Static page: `index.html`, `styles.css`, `script.js`. No build step; open `index.html` in a browser.
+Static page: `index.html`, `styles.css`, `script.js`, with fonts self-hosted in `assets/fonts/`. No build step: open `index.html` in a browser, or serve the folder (`python3 -m http.server 8765`).
+
+The design system is documented in `DESIGN.md`, and the product context in `PRODUCT.md`.
 
 ## Replace the placeholders
-- **Business name, bio, stats, services:** edit `index.html` (search for `TODO` and `Your Studio Name`).
-- **Photo:** save as `assets/portrait.jpg`. **Share image:** `assets/og-image.jpg`.
-- **YouTube videos:** change each `data-yt="..."` to the video ID (the part after `v=` in the URL). One trailer plus three client videos.
-- **Calendly:** set `CALENDLY_URL` at the top of `script.js`.
-- **Colours and fonts:** edit the tokens at the top of `styles.css` (`--cream`, `--ink`, `--sage`, `--yellow`, `--accent`, `--font-display`, `--font-body`). Fonts are loaded from Google Fonts in `index.html`.
-- **Client names in the trust strip:** `trust__logos` list in `index.html`.
-- **Email, phone, social links:** the Contact section in `index.html`.
+Search `index.html` for `TODO` and `[`. Every bracketed text is a placeholder waiting for real content.
+- **Timings** in the three hero frames (`[Week 1]` and so on): confirm or change them.
+- **Founder:** your name and story in the About section. Add your photo as `assets/portrait.jpg`.
+- **Client names** and the three client stories: the result, quote and name for each.
+- **YouTube videos:** change each `data-yt="..."` to the video ID (the part after `v=`). Until then each video shows a "coming soon" countdown frame.
+- **Calendly:** set `CALENDLY_URL` at the top of `script.js`. Until then "Book a call" opens an email to `FALLBACK_EMAIL`.
+- **Contact details** in the closing section, and `FALLBACK_EMAIL` in `script.js`.
+- **Share image:** add `assets/og-image.jpg` (1200x630).
+
+## Colours and fonts
+Tokens are at the top of `styles.css` (`--screen`, `--navy`, `--teal`, `--mustard`, `--font-display`, `--font-body`, `--font-sc`).
 
 ## Host it
-Drag the folder into Netlify Drop, or push to GitHub Pages or Vercel.
+Drag the folder into Netlify Drop, or push it to GitHub Pages or Vercel.
